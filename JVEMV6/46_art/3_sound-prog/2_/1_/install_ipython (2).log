@@ -1,0 +1,56 @@
+(env) C:\WORKS_2\WS\WS_Others\JVEMV6\46_art\3_sound-prog\2_\1_>pip install IPyth
+on
+Collecting IPython
+  Downloading ipython-6.2.1-py3-none-any.whl (745kB)
+    100% |################################| 747kB 453kB/s
+Collecting colorama; sys_platform == "win32" (from IPython)
+  Downloading colorama-0.3.9-py2.py3-none-any.whl
+Collecting win-unicode-console>=0.5; sys_platform == "win32" and python_version
+< "3.6" (from IPython)
+  Downloading win_unicode_console-0.5.zip
+Collecting pickleshare (from IPython)
+  Downloading pickleshare-0.7.4-py2.py3-none-any.whl
+Requirement already satisfied: setuptools>=18.5 in c:\works_2\ws\ws_others\prog\
+d-7\2_2\virtual\env\lib\site-packages (from IPython)
+Collecting traitlets>=4.2 (from IPython)
+  Downloading traitlets-4.3.2-py2.py3-none-any.whl (74kB)
+    100% |################################| 81kB 862kB/s
+Collecting pygments (from IPython)
+  Downloading Pygments-2.2.0-py2.py3-none-any.whl (841kB)
+    100% |################################| 849kB 525kB/s
+Collecting jedi>=0.10 (from IPython)
+  Downloading jedi-0.11.1-py2.py3-none-any.whl (250kB)
+    100% |################################| 256kB 731kB/s
+Requirement already satisfied: decorator in c:\works_2\ws\ws_others\prog\d-7\2_2
+\virtual\env\lib\site-packages (from IPython)
+Collecting prompt-toolkit<2.0.0,>=1.0.4 (from IPython)
+  Downloading prompt_toolkit-1.0.15-py3-none-any.whl (247kB)
+    100% |################################| 256kB 758kB/s
+Collecting simplegeneric>0.8 (from IPython)
+  Downloading simplegeneric-0.8.1.zip
+Requirement already satisfied: six in c:\works_2\ws\ws_others\prog\d-7\2_2\virtu
+al\env\lib\site-packages (from traitlets>=4.2->IPython)
+Collecting ipython-genutils (from traitlets>=4.2->IPython)
+  Downloading ipython_genutils-0.2.0-py2.py3-none-any.whl
+Collecting parso==0.1.1 (from jedi>=0.10->IPython)
+  Downloading parso-0.1.1-py2.py3-none-any.whl (91kB)
+    100% |################################| 92kB 767kB/s
+Collecting wcwidth (from prompt-toolkit<2.0.0,>=1.0.4->IPython)
+  Downloading wcwidth-0.1.7-py2.py3-none-any.whl
+Building wheels for collected packages: win-unicode-console, simplegeneric
+  Running setup.py bdist_wheel for win-unicode-console ... done
+  Stored in directory: C:\Users\iwabuchiken\AppData\Local\pip\Cache\wheels\ff\91
+\6b\e283a7ffda03aaa6caa95849145d5c54a105917fae3ec3f54a
+  Running setup.py bdist_wheel for simplegeneric ... done
+  Stored in directory: C:\Users\iwabuchiken\AppData\Local\pip\Cache\wheels\7b\31
+\08\c85e74c84188cbec6a6827beec4d640f2bd78ae003dc1ec09d
+Successfully built win-unicode-console simplegeneric
+Installing collected packages: colorama, win-unicode-console, pickleshare, ipyth
+on-genutils, traitlets, pygments, parso, jedi, wcwidth, prompt-toolkit, simplege
+neric, IPython
+Successfully installed IPython-6.2.1 colorama-0.3.9 ipython-genutils-0.2.0 jedi-
+0.11.1 parso-0.1.1 pickleshare-0.7.4 prompt-toolkit-1.0.15 pygments-2.2.0 simple
+generic-0.8.1 traitlets-4.3.2 wcwidth-0.1.7 win-unicode-console-0.5
+You are using pip version 9.0.1, however version 9.0.3 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' comm
+and.

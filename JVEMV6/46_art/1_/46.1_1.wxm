@@ -1,0 +1,33 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 14.09.0 ] */
+
+/* [wxMaxima: input   start ] */
+/* sec : 1 */
+x_rng : [x, 0, 2 * %pi];
+
+f1 : sin(x);
+f2 : sin(x * 2);
+f3 : sin(x * 2 - (x * 2)/4);
+
+fs : [f1, f2, f3];
+
+wxplot2d(fs, x_rng);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+/* sec : 1.1 */
+x_rng : [x, 0, 2 * %pi];
+
+a : 3;
+
+f1 : sin(x);
+f2 : sin(x * a);
+f3 : sin(x * a - %pi);
+
+fs : [f1, f2, f3];
+
+wxplot2d(fs, x_rng);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

@@ -1,0 +1,75 @@
+====================================================== 2018/02/17 12:30:23
+#http://hirotaka-hachiya.hatenablog.com/entry/2014/09/21/100707
+
+(env) C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL>python
+Python 3.5.1 (v3.5.1:37a07cee5969, Dec  6 2015, 01:54:25) [MSC v.1900 64 bit (AM
+D64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import numpy as np
+>>> from statsmodels.tsa import arima_model
+C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL\env\lib\site-packages\statsmodels-0
+.8.0-py3.5-win-amd64.egg\statsmodels\compat\pandas.py:56: FutureWarning: The pan
+das.core.datetools module is deprecated and will be removed in a future version.
+ Please use the pandas.tseries module instead.
+  from pandas.core import datetools
+  
+------------------------------------------------- 2018/02/17 12:37:31
+>>> data=np.random.randn(200,1)
+>>> data2 = np.cumsum(data)
+>>> results=arima_model.ARIMA(data2[:190],order = [4,0,0]).fit()
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            5     M =           12
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.43592D+00    |proj g|=  4.68376D-02
+
+At iterate    5    f=  1.40526D+00    |proj g|=  2.58469D-03
+
+At iterate   10    f=  1.40469D+00    |proj g|=  1.99396D-04
+
+At iterate   15    f=  1.40447D+00    |proj g|=  4.08313D-03
+
+At iterate   20    f=  1.40173D+00    |proj g|=  6.91733D-03
+
+At iterate   25    f=  1.39984D+00    |proj g|=  4.46132D-04
+
+At iterate   30    f=  1.39984D+00    |proj g|=  2.22045D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    5     32     38      1     0     0   4.441D-08   1.400D+00
+  F =   1.3998367616969032
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+
+ Cauchy                time 0.000E+00 seconds.
+ Subspace minimization time 0.000E+00 seconds.
+ Line search           time 0.000E+00 seconds.
+
+ Total User time 0.000E+00 seconds.
+
+>>> plt.clf()
+>>> plt.plot(data2)
+[<matplotlib.lines.Line2D object at 0x000000000E92C9B0>]
+>>> plt.plot(results.predict(start=0,end=200))
+[<matplotlib.lines.Line2D object at 0x000000000E92CEB8>]
+>>> plt.legend(['data','predicted'])
+<matplotlib.legend.Legend object at 0x000000000E932080>
+>>> plt.show()

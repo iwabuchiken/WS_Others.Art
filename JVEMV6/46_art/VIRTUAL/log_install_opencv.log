@@ -1,0 +1,122 @@
+================================================== 2018/02/19 14:38:57
+
+(env) C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL>pip install opencv_python-3.4.0-cp37-cp37m-win_amd64.whl
+
+==> ERROR
+opencv_python-3.4.0-cp37-cp37m-win_amd64.whl is not a supported wheel on this platform.
+
+
+-------------------------------------------------- 2018/02/19 14:56:18
+#ref https://stackoverflow.com/questions/17373473/searching-for-available-python-packages-pip answered Jun 28 '13 at 21:00
+(env) C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL>pip search opencv
+opencv-python-aarch64 (3.3.0.1)   - Wrapper package for OpenCV python
+                                    bindings.
+aircv (1.4.6)                     - Find object position based on python-
+                                    opencv2.
+opencv-python-armv7l (3.2.0)      - opencv-python on armv7l.
+athentoimaging (0.1)              - Image cleaning and OCR improvement package
+                                    in Python using OpenCV.
+atx (1.2.1.dev2)                  - Automation test library for android based
+                                    on opencv
+opencv-contrib-python (3.4.0.12)  - Wrapper package for OpenCV python
+                                    bindings.
+ctypes-opencv (0.8.0)             - ctypes-opencv - A Python wrapper for
+                                    OpenCV using ctypes
+cv-pubsubs (0.1)                  - Pubsub interface for Python OpenCV
+cv2-wrapper (0.1)                 - Wrapper for python opencv 2.4.12 32bit
+cv2wrap (1.0)                     - Wrapper for python opencv 2.4.12 32bit
+cv_utils (0.2.0)                  - Computer Vision or OpenCV python utility
+                                    functions. It also includes basic
+                                    utilities for image processing and
+                                    computer vision related tasks.
+cvbuilder (0.2.6)                 - Package for building OpenCV 3.4.0
+                                    including Python 3 bindings from the
+                                    official sources.
+cvimage (0.1.1)                   - Chainable wrapper for OpenCV's python
+                                    bindings.
+cvloop (0.3.5)                    - cvloop allows online video transformation
+                                    and evaluation with OpenCV. Designed for
+                                    jupyter notebooks.
+CVtypes (0.1)                     - Python OpenCV wrapper using ctypes
+cvx (0.1.3)                       - OpenCV 'extension' with routinely used
+                                    methods
+opencv-cython (0.4)               - An alternative OpenCV wrapper
+facerecog (0.0.1)                 - PyQt OpenCV Face Recognition Widget
+hampy (1.4.1)                     - Simple Hamming Marker Detection using
+                                    OpenCV
+helper_functions (2.0.11)         - A simple module of simple function, for
+                                    opencv and python3
+image-pyqt (0.0.2.0.0)            - An Image Widget for display OpenCV Mat
+                                    image
+image-mining (0.1.6)              - Extract useful information from scanned
+                                    images using OpenCV
+imagecrop (0.0.10)                - Use OpenCV to extract image crops using
+                                    homography and feature matching
+images2video (0.3)                - Python images to video library using
+                                    OpenCV
+ImageSource (1.0b2)               - Image sequence abstraction for OpenCV.
+imutils (0.4.5)                   - A series of convenience functions to make
+                                    basic image processing functions such as
+                                    translation, rotation, resizing,
+                                    skeletonization, displaying Matplotlib
+                                    images, sorting contours, detecting edges,
+                                    and much more easier with OpenCV and both
+                                    Python 2.7 and Python 3.
+morecvutils (0.9.2)               - Computer Vision utilities, Cohen-
+                                    Sutherland line clipping, OpenCV plot
+                                    helpers for Optical Flow and Blob
+                                    Analysis, AVI codec helpers
+ObjectExtractor (0.2.2)           - Extract objects from images with OpenCV
+simple-opencv-ocr (0.0)           - A simple OCR with OpenCV
+opencv-utils (0.0.2)              - OpenCV Utilities
+opencv-python (3.4.0.12)          - Wrapper package for OpenCV python
+                                    bindings.
+opencv_cffi (0.2.2)               - A random subset of OpenCV's functionality,
+                                    wrapped via CFFI
+opencv_engine (1.0.1)             - OpenCV imaging engine for thumbor.
+opencv_helpers (1.1)              - Helper functions for opencv
+opencvutils (0.9.3)               - Simple OpenCV 3.x image processing
+                                    functions
+partypi (0.1.4)                   - Party Pi is a computer vision emotion
+                                    detection game with OpenCV and Microsoft
+                                    Oxford Emotion API.
+pyElphel (0.1)                    - Use Elphel camera from python with opencv2
+pyopencv (2.1.0.wr1.2.0)          - PyOpenCV - A Python wrapper for OpenCV 2.x
+                                    using Boost.Python and NumPy
+PySceneDetect (0.3.4)             - A cross-platform, OpenCV-based video scene
+                                    detection program and Python library.
+rapideye (0.1.4)                  - An Image Search Toolkit based on OpenCV.
+remotecv (2.2.1)                  - remotecv is an OpenCV worker for facial
+                                    and feature recognition
+simretina (0.1.4)                 - Simulation of the Retina with OpenCV.
+teacv (0.1.0)                     - teacv is a tool for extend Python OpenCV
+                                    modules with custom filters written in
+                                    C++.
+TiffCapture (0.1.6)               - Brings the power of OpenCV to TIFF videos;
+                                    provides interface to multi-part TIFFs
+                                    compatible with OpenCV's VideoCapture.
+Tippy (0.1)                       - another Toolbox for Image Processing in
+                                    PYthon, based on OpenCV
+vec2img (0.1.0)                   - convert OpenCV samples file to images
+vext.OpenCV (0.5.20)              - Use system OpenCV from a virtualenv
+vse (0.1.5)                       - A visual search engine using local
+                                    features descriptors and bag of words,
+                                    based on OpenCV
+Willow (1.1)                      - A Python image library that sits on top of
+                                    Pillow, Wand and OpenCV
+wxPyGameVideoPlayer (0.1.1.1)     - Just a simple video player using wxPython,
+                                    PyGame, and OpenCV
+
+(env) C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL>pip install opencv-contrib-python
+
+(env) C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL>pip install opencv-contrib-py
+thon
+Collecting opencv-contrib-python
+  Downloading opencv_contrib_python-3.4.0.12-cp35-cp35m-win_amd64.whl (38.9MB)
+    100% |################################| 38.9MB 21kB/s
+Requirement already satisfied: numpy>=1.11.1 in c:\works_2\ws\ws_others\prog\d-7
+\2_2\virtual\env\lib\site-packages (from opencv-contrib-python)
+Installing collected packages: opencv-contrib-python
+Successfully installed opencv-contrib-python-3.4.0.12
+
+#ref external program http://fastml.com/how-to-run-external-programs-from-python-and-capture-their-output/

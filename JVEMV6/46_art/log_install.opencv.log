@@ -1,0 +1,55 @@
+
+-------------------------------------------------- 2018/05/26 14:00:39
+(VIRTUAL) C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art>pip install opencv-python
+Collecting opencv-python
+  Downloading https://files.pythonhosted.org/packages/d0/63/a7284c67b774ee1d879
+1a878693c41a0b2f3c7b14e46f51e20b09d5d1e3/opencv_python-3.4.1.15-cp35-cp35m-win_
+md64.whl (33.6MB)
+    100% |################################| 33.6MB 167kB/s
+Requirement already satisfied: numpy>=1.11.1 in c:\works_2\ws\ws_others.art\jve
+v6\46_art\virtual\lib\site-packages (from opencv-python) (1.14.3)
+Could not install packages due to an EnvironmentError: [Errno 2] No such file o
+ directory: 'c:\\works_2\\ws\\ws_others.art\\jvemv6\\46_art\\virtual\\lib\\site
+packages\\opencv_contrib_python-3.4.0.12.dist-info\\METADATA'
+
+
+-------------------------------------------------- 2018/05/26 14:04:20
+(VIRTUAL) C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art>pip install opencv-contrib-p
+ython
+Collecting opencv-contrib-python
+  Downloading https://files.pythonhosted.org/packages/7e/80/4096f2d19bc7261b013b
+bff46d418b382d627573ee1278fc878357ed8219/opencv_contrib_python-3.4.1.15-cp35-cp3
+5m-win_amd64.whl (39.2MB)
+    100% |################################| 39.2MB 273kB/s
+Requirement already satisfied: numpy>=1.11.1 in c:\works_2\ws\ws_others.art\jvem
+v6\46_art\virtual\lib\site-packages (from opencv-contrib-python) (1.14.3)
+Installing collected packages: opencv-contrib-python
+Successfully installed opencv-contrib-python-3.4.1.15
+
+(VIRTUAL) C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art>pip list
+Package               Version
+--------------------- --------
+clipboard             0.0.4
+cycler                0.10.0
+Django                1.10
+kiwisolver            1.0.1
+matplotlib            2.2.2
+mpmath                1.0.0
+numpy                 1.14.3
+opencv-contrib-python 3.4.1.15
+pip                   10.0.1
+pyparsing             2.2.0
+pyperclip             1.6.0
+python-dateutil       2.7.3
+pytz                  2018.4
+setuptools            39.1.0
+six                   1.11.0
+sympy                 1.1.1
+wheel                 0.31.1
+
+(VIRTUAL) C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art>python
+Python 3.5.1 (v3.5.1:37a07cee5969, Dec  6 2015, 01:54:25) [MSC v.1900 64 bit (AM
+D64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import cv2
+>>> ^Z

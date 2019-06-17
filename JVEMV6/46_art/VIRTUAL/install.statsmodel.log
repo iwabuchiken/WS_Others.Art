@@ -1,0 +1,113 @@
+(env) C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL>pip install -U scikit-learn
+Collecting scikit-learn
+  Using cached scikit_learn-0.19.1-cp35-cp35m-win_amd64.whl
+Installing collected packages: scikit-learn
+Successfully installed scikit-learn-0.19.1
+
+
+---------------------------------------------------- 2018/02/17 11:26:00
+(env) C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL>pip install cython
+Collecting cython
+  Downloading Cython-0.27.3-cp35-cp35m-win_amd64.whl (2.2MB)
+    100% |################################| 2.3MB 296kB/s
+Installing collected packages: cython
+Successfully installed cython-0.27.3
+
+
+    copying statsmodels\tsa\vector_ar\data\e5.dat -> build\lib.win-amd64-3.5\sta
+tsmodels\tsa\vector_ar\data
+    copying statsmodels\tsa\vector_ar\data\e6.dat -> build\lib.win-amd64-3.5\sta
+tsmodels\tsa\vector_ar\data
+    running build_ext
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying f
+rom distutils
+    building 'statsmodels.tsa.statespace._filters._conventional' extension
+    error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual
+C++ Build Tools": http://landinghub.visualstudio.com/visual-cpp-build-tools
+
+    ----------------------------------------
+Command "c:\works_2\ws\ws_others\prog\d-7\2_2\virtual\env\scripts\python.exe -u
+-c "import setuptools, tokenize;__file__='C:\\Users\\IWABUC~1\\AppData\\Local\\T
+emp\\pip-h5db7s02-build\\setup.py';f=getattr(tokenize, 'open', open)(__file__);c
+ode=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'
+))" install --record C:\Users\IWABUC~1\AppData\Local\Temp\pip-brvmov4f-record\in
+stall-record.txt --single-version-externally-managed --compile --install-headers
+ c:\works_2\ws\ws_others\prog\d-7\2_2\virtual\env\include\site\python3.5\statsmo
+dels" failed with error code 1 in C:\Users\IWABUC~1\AppData\Local\Temp\pip-h5db7
+s02-build\
+
+---------------------------------------------------- 2018/02/17 11:58:40
+Traceback (most recent call last):
+File "C:\WORKS_2\Programs\Anaconda3\lib\site-packages\anaconda_navigator\exceptions.py", line 75, in exception_handler
+return_value = func(*args, **kwargs)
+File "C:\WORKS_2\Programs\Anaconda3\lib\site-packages\anaconda_navigator\app\start.py", line 120, in start_app
+window = run_app(splash)
+File "C:\WORKS_2\Programs\Anaconda3\lib\site-packages\anaconda_navigator\app\start.py", line 63, in run_app
+window = MainWindow(splash=splash)
+File "C:\WORKS_2\Programs\Anaconda3\lib\site-packages\anaconda_navigator\widgets\main_window.py", line 163, in __init__
+self.api = AnacondaAPI()
+File "C:\WORKS_2\Programs\Anaconda3\lib\site-packages\anaconda_navigator\api\anaconda_api.py", line 2004, in AnacondaAPI
+ANACONDA_API = _AnacondaAPI()
+File "C:\WORKS_2\Programs\Anaconda3\lib\site-packages\anaconda_navigator\api\anaconda_api.py", line 88, in __init__
+self._conda_api = CondaAPI()
+File "C:\WORKS_2\Programs\Anaconda3\lib\site-packages\anaconda_navigator\api\conda_api.py", line 1690, in CondaAPI
+CONDA_API = _CondaAPI()
+File "C:\WORKS_2\Programs\Anaconda3\lib\site-packages\anaconda_navigator\api\conda_api.py", line 347, in __init__
+self.set_conda_prefix()
+File "C:\WORKS_2\Programs\Anaconda3\lib\site-packages\anaconda_navigator\api\conda_api.py", line 496, in set_conda_prefix
+self.ROOT_PREFIX = info['root_prefix']
+TypeError: byte indices must be integers or slices, not str
+
+
+---------------------------------------------------- 2018/02/17 12:25:33
+(env) C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL>easy_install statsmodels
+Searching for statsmodels
+Reading https://pypi.python.org/simple/statsmodels/
+c:\works_2\ws\ws_others\prog\d-7\2_2\virtual\env\lib\site-packages\setuptools\pe
+p425tags.py:89: RuntimeWarning: Config variable 'Py_DEBUG' is unset, Python ABI
+tag may be incorrect
+  warn=(impl == 'cp')):
+c:\works_2\ws\ws_others\prog\d-7\2_2\virtual\env\lib\site-packages\setuptools\pe
+p425tags.py:93: RuntimeWarning: Config variable 'WITH_PYMALLOC' is unset, Python
+ ABI tag may be incorrect
+  warn=(impl == 'cp')):
+Downloading https://pypi.python.org/packages/72/16/d7e7a70fc8ca3cc0d783a66e902a7
+adf80a810695c357cd48bb22c82451a/statsmodels-0.8.0.tar.gz#md5=b3e5911cc9b00b71228
+d5d39a880bba0
+Best match: statsmodels 0.8.0
+Processing statsmodels-0.8.0.tar.gz
+Writing C:\Users\IWABUC~1\AppData\Local\Temp\easy_install-wu58wk3h\statsmodels-0
+.8.0\setup.cfg
+Running statsmodels-0.8.0\setup.py -q bdist_egg --dist-dir C:\Users\IWABUC~1\App
+Data\Local\Temp\easy_install-wu58wk3h\statsmodels-0.8.0\egg-dist-tmp-uga3p7k0
+package init file 'statsmodels\tsa\vector_ar\data\__init__.py' not found (or not
+ a regular file)
+warning: no files found matching '*.pxi' anywhere in distribution
+warning: no previously-included files matching '*' found under directory 'build'
+
+warning: no previously-included files matching '*' found under directory 'dist'
+warning: no previously-included files found matching 'docs\source\generated\*'
+warning: no previously-included files matching '*' found under directory 'docs\b
+uild'
+warning: no previously-included files matching '*' found under directory 'docs\b
+uild\htmlhelp'
+warning: no files found matching 'statsmodels\statsmodelsdoc.chm'
+no previously-included directories found matching '*\__pycache__'
+warning: no previously-included files matching '*~' found anywhere in distributi
+on
+warning: no previously-included files matching '*.swp' found anywhere in distrib
+ution
+warning: no previously-included files matching '*.pyo' found anywhere in distrib
+ution
+warning: no previously-included files matching '*.bak' found anywhere in distrib
+ution
+creating c:\works_2\ws\ws_others\prog\d-7\2_2\virtual\env\lib\site-packages\stat
+smodels-0.8.0-py3.5-win-amd64.egg
+Extracting statsmodels-0.8.0-py3.5-win-amd64.egg to c:\works_2\ws\ws_others\prog
+\d-7\2_2\virtual\env\lib\site-packages
+Adding statsmodels 0.8.0 to easy-install.pth file
+
+Installed c:\works_2\ws\ws_others\prog\d-7\2_2\virtual\env\lib\site-packages\sta
+tsmodels-0.8.0-py3.5-win-amd64.egg
+Processing dependencies for statsmodels
+Finished processing dependencies for statsmodels
