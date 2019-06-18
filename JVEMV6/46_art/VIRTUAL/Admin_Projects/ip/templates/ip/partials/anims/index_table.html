@@ -1,0 +1,116 @@
+{% load taglib_basic %}
+
+<!-- <div id="div_IFM11_List_Main"> -->
+
+<table id="tbl_IP_Anims_Actions__Header">
+
+        <tr>
+            
+            <th>
+                No.
+            </th>
+                
+            <th>
+            
+                ID
+            
+            </th>
+            
+            <th>
+            
+                Ops
+            
+            </th>
+            
+            <th>
+            
+                Descrip.
+            
+            </th>
+            
+            <th>
+            
+                Entry
+            
+            </th>
+            
+            <th>
+            
+                Action
+            
+            </th>
+            
+        </tr>
+
+
+</table>
+
+<div id="div_IP_Anims_Actions__Header">
+
+	<!-- <table id="tbl_Im_Actions"> -->
+	
+	<table id="tbl_IP_Anims_Actions__Body">
+	     
+	     
+	    {% for item in lo_Commands %}
+	    
+	       <!-- ref https://stackoverflow.com/questions/459161/alternate-row-coloring-in-django-template-with-more-than-one-set-of-rows#459927 -->
+	        {% if forloop.counter|divisibleby:2 %}
+	        
+	           <tr class = "tbl_IP_Anims_Actions__Body__TR_COLOR">
+	        
+	        {% else %}
+	        
+		        <tr>
+		        
+	        {% endif %}
+	        
+	            <td class="tbl_IP_Anims_Actions__Body__Col_SN">
+	            
+	                {{forloop.counter}}
+	            
+	            </td>
+	            
+	            <td id="td_Label_{{ item.0 }}">
+	            
+	                {{ item.0 }}
+	                
+	            </td>
+	            
+	            <td id="td_Label_{{ item.1 }}">
+	            
+	                {{ item.1 }}
+	                
+	            </td>
+	            
+	            <td id="td_Label_{{ item.2 }}">
+	            
+	                {{ item.2 }}
+	                
+	            </td>
+	            
+	            <td id="td_Label_{{ item.3 }}">
+	            
+	                {{ item.3 }}
+	                
+	            </td>
+	            
+	            <td>
+	            
+	                <button 
+	                       onclick="anims_Action('{{ item.0 }}')"  
+	                       class="bt_Basic_2_Size20"
+	                       >
+	                   GO
+	                   </button>
+	                
+	            </td>
+	            
+	        </tr>
+	        
+	    {% endfor%}
+	    
+
+	</table>
+
+</div><!-- <div id="div_IP_Anims_Actions__Header"> -->

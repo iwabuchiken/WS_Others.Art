@@ -1,0 +1,33 @@
+2018/06/17 11:50:52 ========================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\WORKS_2\Programs\Python\Python_3.5.1\Lib\threading.py", line 914, in
+_bootstrap_inner
+    self.run()
+  File "C:\WORKS_2\Programs\Python\Python_3.5.1\Lib\threading.py", line 862, in
+run
+    self._target(*self._args, **self._kwargs)
+  File "dos_attack.py", line 28, in worker
+    r = requests.get('http://localhost:8001/ip/dos_attack/')
+  File "C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\lib\site-packages\requ
+ests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\lib\site-packages\requ
+ests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\lib\site-packages\requ
+ests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\lib\site-packages\requ
+ests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\lib\site-packages\requ
+ests\adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8
+001): Max retries exceeded with url: /ip/dos_attack/ (Caused by NewConnectionErr
+or('<urllib3.connection.HTTPConnection object at 0x0000000005402F28>: Failed to
+establish a new connection: [WinError 10061] 対象のコンピューターによって拒否さ
+れたため、接続できませんでした。',))

@@ -1,0 +1,82 @@
+Anims
+
+    <button onclick="open_dir('anims')"
+        class="bt_Basic_2_Size20"
+        
+        >
+        Open dir
+    </button>
+
+<hr>
+
+    <button onclick="curr_Show_Basics_Table_Commands()"
+        class="bt_Basic_2_Size20"
+        
+        >
+        Show / Hide
+    </button>
+    
+    List of commands
+    
+</div><!-- <div id="div_IP_Basics_Button_ShowHide"> -->
+
+
+
+<div id="div_IP_Anims_ListOf_Actions">
+
+    {% include 'ip/partials/anims/index_table.html' %}
+
+
+</div><!-- <div id="div_Basics_ListOf_Actions"> -->
+
+<hr>
+<button onclick="bt_ShowHide_Areas('div_IP_Anims_Options_Area')"
+    class="bt_Basic_2_Size20"
+    
+    >
+    Show / Hide
+</button>
+    
+    Options
+
+<div id="div_IP_Anims_Options_Area">
+
+	{% include 'ip/partials/anims/_anims_options.html' %}
+	
+</div>
+
+<hr>
+
+<button onclick="bt_ShowHide_Areas('div_IP_Anims_Output_Areas')"
+    class="bt_Basic_2_Size20"
+    
+    >
+    Show / Hide
+</button>
+    
+    Outputs
+
+<div id="div_IP_Anims_Output_Areas">
+	<label 
+	    for="div_IP_Anims__Log_Area"
+	    class="lbl_div_IP_Anims__Log_Area"
+	    >Log area</label>
+	    
+	<div id="div_IP_Anims__Log_Area" name="div_IP_Anims__Log_Area">
+	
+	</div>
+	
+	<label 
+	    for="div_IP_Anims__Message_Area"
+	    class="lbl_div_IP_Anims__Log_Area"
+	    >
+	        Message area
+	    </label>
+	
+	<div id="div_IP_Basics_Message_Area">
+	
+	{{ msg }}
+	
+	</div><!-- <div id="div_Basics_Message_Area"> -->
+
+</div><!-- id="div_IP_Anims_Output_Areas" -->

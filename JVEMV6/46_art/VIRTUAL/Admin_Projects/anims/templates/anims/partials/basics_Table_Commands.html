@@ -1,0 +1,70 @@
+{% load taglib_basic %}
+
+<table id="tbl_Im_Actions">
+
+    <tr>
+        
+        <th>
+            No.
+        </th>
+            
+        <th>
+        
+            Commands
+            
+        </th>
+            
+        <th>
+        
+            Descrip.
+            
+        </th>
+        
+        <th>
+        
+            Action
+        
+        </th>
+    
+    </tr>
+     
+    {% for item in lo_Commands %}
+    
+        <tr>
+        
+            <td>
+            
+                {{forloop.counter}}
+            
+            </td>
+            
+            <td>
+            
+                {{ item.0 }}
+                
+            </td>
+            
+            <td>
+            
+                {{ item.1 }}
+                
+            </td>
+            
+            <td>
+            
+                <button 
+                        onclick="ip_Basics_Index_GO('{{ item.0 }}')"
+                        class = "bt_Index_List_Action"
+                        >
+                     GO
+                </button>
+                
+            </td>
+            
+        </tr>
+        
+    {% endfor%}
+    
+</table>
+
+    

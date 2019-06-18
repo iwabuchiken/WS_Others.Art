@@ -1,0 +1,159 @@
+<!-- 4 corners ! -->
+<br>
+
+<div id="div_IP_Get_4Corners_Message_Area">
+
+    Message
+
+</div><!-- <div id="div_IP_Get_4Corners_Message_Area"> -->
+
+<div id="div_IP_Get_4Corners_Result_Area">
+
+    Results
+
+</div><!-- <div id="div_IP_Get_4Corners_Result_Area"> -->
+
+
+<div>
+
+    <input rows="1" cols="1" id="ipt_IP_Get_4Corners"
+        
+        value="{{ dpath_Images }}"
+        >
+    
+    </input>
+
+    <button id="btn_IP_Get_4Corners__Open_ImageDir"
+    
+        onclick="btn_IP_Get_4Corners__Open_ImageDir();"
+    
+        >
+        
+        Open dir
+    
+    </button>
+
+    <button id="btn_IP_Get_4Corners__Prep_Gen_CakeCSV"
+    
+        onclick="btn_IP_Get_4Corners__Prep_Gen_CakeCSV();"
+    
+        >
+        
+        Prep
+    
+    </button>
+
+    <button id="btn_IP_Get_4Corners__Gen_CakeCSV"
+    
+        onclick="btn_IP_Get_4Corners__Gen_CakeCSV();"
+    
+        >
+        
+        Gen Cake csv
+    
+    </button>
+
+</div>
+
+<br>
+<button
+    id="bt_Get4Corners_Options_ShowHide"
+    class="bt_Basic_2_Size20"
+    onclick="bt_Get4Corners_Options_ShowHide_toggle();";
+    >
+    Hide options
+</button>
+
+<div id="div_Get4Corners_Options">
+    
+    <table
+    
+        id="tbl_Get4Corners_Options"
+        >
+    
+        <tr>
+            <td>
+            
+			    <!-- ref https://html.com/input-type-checkbox/ -->
+			    <input type="checkbox" name="cb_Get4Corners_SaveImage" value="cb_Get4Corners_SaveImage" id="cb_Get4Corners_SaveImage">
+			    <label for="cb_Get4Corners_SaveImage"> Save corner images !</label>
+			    
+            </td>
+        
+        </tr>
+    
+        <tr>
+            <td>
+	            Corner image width : 
+			    <input 
+			          type="inputbox" 
+			          name="cb_Get4Corners_CornerImage_Width" 
+			          id="cb_Get4Corners_CornerImage_Width"
+			          value="{{ dflt_Corner_Width }}"
+			          >
+		          
+            </td>
+            
+            <td>
+	            Corner image padding : 
+			    <input 
+			          type="inputbox" 
+			          name="cb_Get4Corners_CornerImage_Padding" 
+			          id="cb_Get4Corners_CornerImage_Padding"
+			          value="{{ dflt_Corner_Padding }}"
+			          >
+		          
+            </td>
+            
+        </tr>
+    
+    </table>
+
+</div>
+
+<br>
+
+    <div id="div_IP_Get_4Corners__Tbl">
+    
+        <table id="tbl_IP_Get_4Corners">
+            
+            {% for item in lo_Files %}
+                <tr>
+                    <td>
+                        {{forloop.counter}}
+                    </td>
+                   
+                   
+                   <td>
+                   
+                       <!-- <a href = "http://127.0.0.1:8000/curr/gen_peak_data/?currency_pair={{ currency_pair}}&data_file={{ item }}"> -->
+                        
+                        {{ item }}
+                        
+                       <!-- </a> -->
+                   
+                   </td>
+                   
+                   <td>
+                    
+                        <button 
+                                onclick="exec_Get_4Corners('{{ item }}')"
+                                class = "bt_Numbering_List"
+                                id = "{{ forloop.counter0 }}"
+                            >
+                        
+                            GO
+                        <!-- onclick="exec_Numbering('{{ item }}')" -->
+                        <!-- id = "bt_Exec_Numbering_{{ forloop.counter0 }}" -->
+                        </button>
+                    
+                   </td>
+                   
+                   
+                </tr>
+            
+            {% endfor %}
+        
+        </table>
+
+    </div><!-- <div id="div_Numbering_Content"> -->

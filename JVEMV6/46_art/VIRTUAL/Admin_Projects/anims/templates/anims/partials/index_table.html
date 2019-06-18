@@ -1,0 +1,88 @@
+{% load taglib_basic %}
+
+<!-- <div id="div_IFM11_List_Main"> -->
+
+<table id="tbl_Im_Actions__Header">
+
+        <tr>
+            
+            <th>
+                No.
+            </th>
+                
+            <th>
+            
+                File
+                
+            </th>
+        
+            <th>
+            
+                Action
+            
+            </th>
+<!--         
+            <th>
+            
+                <input id="ipt_IM_Update_Date"/>
+            
+            </th>
+ -->
+        </tr>
+
+
+</table>
+
+<div id="div_IM_Update_Date">
+
+    Update date
+    
+    <input 
+        id="ipt_IM_Update_Date"
+        onmouseover="this.select()"
+        />
+
+</div>
+
+
+<div id="div_Im_Actions__Body">
+
+	<!-- <table id="tbl_Im_Actions"> -->
+	
+	<table id="tbl_Im_Actions__Body">
+	     
+	    {% for item in lo_Commands %}
+	    
+	        <tr>
+	        
+	            <td>
+	            
+	                {{forloop.counter}}
+	            
+	            </td>
+	            
+	            <td id="td_Label_{{ item.0 }}">
+	            
+	                {{ item.1 }}
+	                
+	            </td>
+	            
+	            <td>
+	            
+	                <button 
+	                       onclick="im_Action('{{ item.0 }}')"
+	                       class="bt_Basic_2_Size20"
+	                       >
+	                   GO
+	                   </button>
+	                
+	            </td>
+	            
+	        </tr>
+	        
+	    {% endfor%}
+	    
+
+	</table>
+
+</div><!-- <div id="div_IFM11_List_Main"> -->

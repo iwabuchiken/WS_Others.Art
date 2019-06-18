@@ -1,0 +1,25 @@
+(VIRTUAL) C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\Admin_Projects\ip\ut
+ils>pip install requests
+Collecting requests
+  Downloading https://files.pythonhosted.org/packages/65/47/7e02164a2a3db50ed6d8
+a6ab1d6d60b69c4c3fdf57a284257925dfc12bda/requests-2.19.1-py2.py3-none-any.whl (9
+1kB)
+    100% |################################| 92kB 921kB/s
+Collecting idna<2.8,>=2.5 (from requests)
+  Downloading https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1
+af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl (58kB)
+    100% |################################| 61kB 1.2MB/s
+Requirement already satisfied: urllib3<1.24,>=1.21.1 in c:\works_2\ws\ws_others.
+art\jvemv6\46_art\virtual\lib\site-packages (from requests) (1.23)
+Collecting chardet<3.1.0,>=3.0.2 (from requests)
+  Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b648
+7b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133
+kB)
+    100% |################################| 143kB 1.1MB/s
+Collecting certifi>=2017.4.17 (from requests)
+  Downloading https://files.pythonhosted.org/packages/7c/e6/92ad559b7192d846975f
+c916b65f667c7b8c3a32bea7372340bfe9a15fa5/certifi-2018.4.16-py2.py3-none-any.whl
+(150kB)
+    100% |################################| 153kB 1.1MB/s
+Installing collected packages: idna, chardet, certifi, requests
+Successfully installed certifi-2018.4.16 chardet-3.0.4 idna-2.7 requests-2.19.1

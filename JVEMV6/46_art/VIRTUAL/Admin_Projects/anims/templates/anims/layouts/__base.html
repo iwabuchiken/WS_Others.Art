@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>{% block title %}IP{% endblock %}</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'ip/css/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'ip/css/style.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'ip/css/main.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'ip/css/jquery-ui.css' %}">
+    
+    <script src="{% static 'ip/js/jquery.js' %}"></script>
+    <script src="{% static 'ip/js/main.js' %}"></script>
+    
+    <script src="{% static 'ip/js/jquery-ui.js' %}"></script>
+    
+</head>
+    
+<body>
+
+        <!-- ref https://oncampus.oberlin.edu/webteam/2012/09/architecture-django-templates -->
+        <div id="main" role="main">
+            <div class="container">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+
+    <div id = "layout_Links_Basic">
+    
+        {% include 'ip/partials/layouts/__layouts_links_basic.html' %}
+    
+    </div>
+    
+</body>
+</html>
