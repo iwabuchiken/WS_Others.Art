@@ -618,7 +618,8 @@ class ColorNameSet(Enum):
 #             ######################################'''
             #, "bboo" : ":m X-X*X RES / 245 / 『不完全性定理』　ゲーデル　林晋、八杉満利子 / p.XX"
             #, "bboo" : ":m X-X*X RES / 245 / 『四元数』　今野紀雄 / p.XX" #20190510_080306
-            , "bboo" : ":m RES 1-2*2 / free# VX7GLZ 27#15_1 / 27. math / 15. quaternion / XXX" #20190611_105855
+            #, "bboo" : ":m RES 1-2*2 / free# VX7GLZ 27#15_1 / 27. math / 15. quaternion / XXX" #20190611_105855
+            , "bboo" : ":m 1-X*X RES / free# VX7GLZ 28#3CVF XX / 28. physics / 3CVF spinors / XXX" #20190624_150437
             #, "ggoo" : u':m 食べた物　間食 / ヨーグルト / += '
             , "ggoo" : u':m 食べた物　間食 / 味噌スープ'	# 20190219_085106
             , "ooyy" : u'\'-*'
