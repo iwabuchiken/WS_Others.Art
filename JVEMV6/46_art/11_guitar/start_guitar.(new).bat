@@ -4,6 +4,9 @@ REM *******************************
 echo start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
 start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
 
+echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+
 REM *******************************
 REM 	browser
 REM 	2019/09/16 14:18:11

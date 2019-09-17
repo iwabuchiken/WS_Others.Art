@@ -21,6 +21,10 @@ start_env.bat
         python jvemv6_37_12_1_guitar-memo.py
     3. open the newly-gen-ed file : memo_guitar.(replaced).(20190917_094828).txt
 
+<git>
+r a && s
+
+
 '''
 ###############################################
 import sys
@@ -51,7 +55,7 @@ import os, re
 #ref https://teratail.com/questions/47744 2019/09/01 15:25:52
 import urllib.request, urllib.error
 #ref https://tonari-it.com/python-beautiful-soup-html-parse/#toc2
-import bs4
+#import bs4
 
 '''###################
     vars : global
