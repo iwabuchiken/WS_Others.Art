@@ -28,6 +28,7 @@ REM 	doc
 REM 	2019/09/16 14:18:11
 REM *******************************
 start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar\list_of_memos.ods
+start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar\memos_guitar.odt
 
 REM pause
 
