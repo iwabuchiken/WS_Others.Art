@@ -7,6 +7,16 @@ start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
 echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 
+echo start C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\5_guitar
+start C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\5_guitar
+
+REM *******************************
+REM 	vlc player
+REM 	2019/09/26 18:16:41
+REM *******************************
+pushd C:\Users\iwabuchiken\VLC
+start vlc.exe
+
 REM *******************************
 REM 	browser
 REM 	2019/09/16 14:18:11
