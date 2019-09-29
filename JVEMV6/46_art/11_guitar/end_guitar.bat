@@ -1,2 +1,2 @@
 taskkill /im MuseScore3.exe
-taskkill /im Domino.exe
+taskkill /im sakura.exe
