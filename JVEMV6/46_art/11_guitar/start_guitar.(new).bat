@@ -1,3 +1,11 @@
+REM ******************************* list
+REM 	open folders
+REM 	vlc player
+REM 	browser
+REM 	doc
+REM *******************************
+
+
 REM *******************************
 REM 	open folders
 REM *******************************
@@ -26,6 +34,7 @@ REM *******************************
 REM : opera
 	pushd "C:\WORKS_2\Programs\opera"
 	start launcher.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=gt&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
+	start launcher.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=gt+video+g-1008&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
 REM 	start launcher.exe "https://docs.zoho.com/sheet/open/ek7i4683eb5df87d04a23acef09182e7df623/sheets/free/ranges/A3"
 
 	goto exit_web_page_keyboard
