@@ -1,5 +1,13 @@
 REM *******************************
 REM 	open folders
+REM 	apps : itunes
+REM 	browser
+REM 	apps
+REM 	git pull
+REM *******************************
+
+REM *******************************
+REM 	open folders
 REM *******************************
 echo start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
 start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
@@ -21,6 +29,10 @@ start chrome.exe "https://docs.google.com/document/d/1SjUWaAOO4C19dSpDT0j5AqGwls
 
 REM : image memos
 start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_file_name=2018-07-22&filter_memo=guitar&RBs_AND_OR_Memo=AND&RBs_AND_OR_File_Name=AND"
+
+REM : keyboard
+	https://www.apronus.com/music/flashpiano.htm
+	https://www.onlinepianist.com/virtual-piano
 
 REM *******************************
 REM 	apps
