@@ -3,6 +3,7 @@ REM 	open folders
 REM 	vlc player
 REM 	browser
 REM 	doc
+REM 	metronome
 REM *******************************
 
 
@@ -33,7 +34,7 @@ REM *******************************
 
 REM : opera
 	pushd "C:\WORKS_2\Programs\opera"
-	start launcher.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=gt&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
+	start launcher.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=gt+log&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
 	start launcher.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=gt+video+g-1008&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
 REM 	start launcher.exe "https://docs.zoho.com/sheet/open/ek7i4683eb5df87d04a23acef09182e7df623/sheets/free/ranges/A3"
 
@@ -50,6 +51,15 @@ REM 	2019/09/16 14:18:11
 REM *******************************
 start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar\list_of_memos.ods
 start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar\memos_guitar.odt
+
+
+REM *******************************
+REM 	metronome
+REM 	2019/10/24 15:11:38
+REM *******************************
+	pushd "C:\WORKS_2\Programs\opera"
+	start launcher.exe "https://www.metronomeonline.com"
+
 
 REM pause
 

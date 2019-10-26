@@ -1038,8 +1038,20 @@ def test_1():
 #                    ["(s\.\d+):", "$1\t"]
                    ["(s\.\d+):", "\g<1>\t"]
                    , ["\.N", "\t"]
-                   #, ["\.n", "\t"]	# 20191009_102653
-                   , ["^(.+-\d\).n", "\g<1>\tn"]	# 20191023_091457
+                   #, ["\.n", "\t"]	# 20191009_102653 ==> working
+                   #, ["^(.+-\d\).n", "\g<1>\tn"]	# 20191023_091457 ==> error 'unterminated subpattern at position 1'
+                   #, ["^(.+-\d\).n", "\g<1>\t.n"]	# 20191024_111819 testing ==> error 'unterminated subpattern at position 1'
+                   #, ["^(.+-\d\).n", "\g<1>\t n"]	# 20191024_111934 testing ==> error 'unterminated subpattern at position 1'
+                   #, ["^(.+-\d\).n", "\g<1>\t nnn"] # 20191024_112117 testing ==> error 'unterminated subpattern at position 1'
+                   #, ["^(.+-\d\).n", "\g<1>\t new"] # 20191024_112117 testing ==> error 'unterminated subpattern at position 1'
+                   #, ["^(.+-\d\).n", "\g<1>\tnew"] # 20191024_112231 testing ==> error 'unterminated subpattern at position 1'
+                   #, ["^(.+-\d).n", "\g<1>\t n"] # 20191024_112231 testing ==> working --> '(.+-\d\)' ~~> the second '\' omitted
+                   #, ["^(.+-\d).n", "\g<1>\tn"] # 20191024_112512 ==> working, but '.n' stays
+                   #, ["^(.+-\d)\.n", "\g<1>\tn"] # 20191024_112601 ==> working, but '.n' stays
+                   #, ["(.+-\d)\.n", "\g<1>\tn"] # 20191024_112907 ==> omit '^' ---> NO
+                   , ["(et|f|st|ct)-(\d+)\.n", "\g<1>-\g<2>\tn"] # 20191024_112907 ==> working, '.n' converted to "\tn"
+                   
+                   , ["(et|f|st|ct)-(\d+),([a-zA-Z])", "\g<1>-\g<2>\t\g<3>"] # 20191024_112907 ==> working, converted
                    
                    , ["(\d),rev", "\g<1>\trev"]
                    , ["(\d);v", "\g<1>\tv"]
