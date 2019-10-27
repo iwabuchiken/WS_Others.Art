@@ -58,8 +58,8 @@ REM 	metronome
 REM 	2019/10/24 15:11:38
 REM *******************************
 	pushd "C:\WORKS_2\Programs\opera"
-	start launcher.exe "https://www.metronomeonline.com"
-
+REM 	start launcher.exe "https://www.metronomeonline.com"
+	start launcher.exe "https://www.imusic-school.com/en/tools/online-metronome/"
 
 REM pause
 
