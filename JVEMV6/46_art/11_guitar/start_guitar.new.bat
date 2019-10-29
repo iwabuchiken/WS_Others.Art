@@ -54,12 +54,16 @@ start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar\memos_guitar.odt
 
 
 REM *******************************
-REM 	metronome
+REM 	apps : metronome
 REM 	2019/10/24 15:11:38
 REM *******************************
 	pushd "C:\WORKS_2\Programs\opera"
+REM : metronome
 REM 	start launcher.exe "https://www.metronomeonline.com"
 	start launcher.exe "https://www.imusic-school.com/en/tools/online-metronome/"
+REM : keyboard
+	start launcher.exe https://pianoplays.com
+	start launcher.exe https://www.onlinepianist.com/virtual-piano
 
 REM pause
 
