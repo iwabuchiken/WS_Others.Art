@@ -19,7 +19,7 @@ REM : log
 start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\log_46#6.odt
 
 REM : sheet
-start 46#6_visual-arts.ods
+start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\46#6_visual-arts.ods
 
 REM ************************
 REM 	app : gimp
