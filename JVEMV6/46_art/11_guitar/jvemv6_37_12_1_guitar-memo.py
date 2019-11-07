@@ -1051,7 +1051,9 @@ def test_1():
                    #, ["(.+-\d)\.n", "\g<1>\tn"] # 20191024_112907 ==> omit '^' ---> NO
                    , ["(et|f|st|ct)-(\d+)\.n", "\g<1>-\g<2>\tn"] # 20191024_112907 ==> working, '.n' converted to "\tn"
                    
-                   , ["(et|f|st|ct)-(\d+),([a-zA-Z])", "\g<1>-\g<2>\t\g<3>"] # 20191024_112907 ==> working, converted
+                   #, ["(et|f|st|ct)-(\d+),([a-zA-Z])", "\g<1>-\g<2>\t\g<3>"] # 20191024_112907 ==> working, converted
+                   #, ["(et|f|st|ct)-(\d+),([a-zA-Z]+),", "\g<1>-\g<2>\t\g<3>\t"] # 20191107_090118 ==> working
+                   , ["(et|f|st|ct)-(\d+),([a-zA-Z]{2,}),", "\g<1>-\g<2>\t\g<3>\t"] # 20191107_090411
                    
                    #, ["(\d),rev", "\g<1>\trev"]
                    , ["(\d),rev", "\g<1>\trev\t"] # 20191107_084308
@@ -1069,6 +1071,12 @@ def test_1():
                    , ["^(\d+?\t.+-\d+),",    "\g<1>\t"]
                    , ["(\d);var",    "\g<1>\tvar"]
                    , [",R=",    "\tR="]
+                   
+                   , ["other,",    "other\tother\t"]	# 20191107_090715
+                   
+                   , ["warm-up,",    "warm-up\wu\t"]	# 20191107_090715
+                   , ["wu,",    "warm-up\wu\t"]	# 20191107_090715
+                   
                    ]
     
     for item in lo_Replaces:
@@ -1077,9 +1085,21 @@ def test_1():
                 (os.path.basename(libs.thisfile()), libs.linenum()
                 , item[0], item[1]
                 ), file=sys.stderr)
-    
+
+        #debug
+        print("[%s:%d] txt_Replaced (before) = '%s'" % \
+                (os.path.basename(libs.thisfile()), libs.linenum()
+                , txt_Replaced
+                ), file=sys.stderr)
+        
     
         txt_Replaced = re.sub(item[0], item[1], txt_Replaced)
+
+        #debug
+        print("[%s:%d] txt_Replaced (after) = '%s'" % \
+                (os.path.basename(libs.thisfile()), libs.linenum()
+                , txt_Replaced
+                ), file=sys.stderr)
         
     #/for item in lo_Replaces:
 
