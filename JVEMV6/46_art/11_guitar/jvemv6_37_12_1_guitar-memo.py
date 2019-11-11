@@ -1075,7 +1075,7 @@ def test_1():
                    , ["other,",    "other\tother\t"]	# 20191107_090715
                    
                    , ["warm-up,",    "warm-up\wu\t"]	# 20191107_090715
-                   , ["wu,",    "warm-up\wu\t"]	# 20191107_090715
+                   , ["wu,",    "warm-up\twu\t"]	# 20191107_090715
                    
                    ]
     
