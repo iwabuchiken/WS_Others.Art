@@ -1049,7 +1049,8 @@ def test_1():
                    #, ["^(.+-\d).n", "\g<1>\tn"] # 20191024_112512 ==> working, but '.n' stays
                    #, ["^(.+-\d)\.n", "\g<1>\tn"] # 20191024_112601 ==> working, but '.n' stays
                    #, ["(.+-\d)\.n", "\g<1>\tn"] # 20191024_112907 ==> omit '^' ---> NO
-                   , ["(et|f|st|ct)-(\d+)\.n", "\g<1>-\g<2>\tn"] # 20191024_112907 ==> working, '.n' converted to "\tn"
+                   #, ["(et|f|st|ct)-(\d+)\.n", "\g<1>-\g<2>\tn"] # 20191024_112907 ==> working, '.n' converted to "\tn"
+                   , ["(et|f|st|ct|m|ch|cp)-(\d+)\.n", "\g<1>-\g<2>\tn"] # 20191024_112907 ==> working, '.n' converted to "\tn" # 20191129_085145
                    
                    #, ["(et|f|st|ct)-(\d+),([a-zA-Z])", "\g<1>-\g<2>\t\g<3>"] # 20191024_112907 ==> working, converted
                    #, ["(et|f|st|ct)-(\d+),([a-zA-Z]+),", "\g<1>-\g<2>\t\g<3>\t"] # 20191107_090118 ==> working
