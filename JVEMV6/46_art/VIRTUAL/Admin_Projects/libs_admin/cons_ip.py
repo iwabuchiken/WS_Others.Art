@@ -443,7 +443,8 @@ class ColorNameSet(Enum):
 #                 r : red
 #             ###################'''
             , "ooor"    # kb
-            , "oorr"	# 朝永
+            #, "oorr"	# 朝永
+            , "oorr"	# シュッツ	20200105_100303
             
 #             '''###################
 #                 b : blue
@@ -592,7 +593,8 @@ class ColorNameSet(Enum):
             #, "ooor" : u':m music / log / kb / s.1:XXX s.2:XXX s.3:XXX s.4:XXX s.5:XXX'	# 20190505_075300
             #, "ooor" : u':m music / log / kb / s.1:XXX s.2:XXX s.3:XXX s.4:XXX s.5:XXX s.6:XXX s.7:XXX'	# 20190529_105137
             , "ooor" : u':m music / log / gt / || s.1:XXX || s.2:XXX || s.3:XXX || s.4:XXX || s.5:XXX || s.6:XXX || s.7:XXX'	# 20190816_085002
-            , "oorr" : ":m X-X*X RES / 245 / 『量子力学　I』　朝永 / p.XX"	# 朝永	# 20190113_063411
+            #, "oorr" : ":m X-X*X RES / 245 / 『量子力学　I』　朝永 / p.XX"	# 朝永	# 20190113_063411
+            , "oorr" : ":m X-X*X RES / 245 / 『相対論』　シュッツ / p.XX"	# シュッツ	# 2020年1月5日10:01:28
 
 #             '''###################
 #                 green
