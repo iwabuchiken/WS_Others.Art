@@ -1050,11 +1050,14 @@ def test_1():
                    #, ["^(.+-\d)\.n", "\g<1>\tn"] # 20191024_112601 ==> working, but '.n' stays
                    #, ["(.+-\d)\.n", "\g<1>\tn"] # 20191024_112907 ==> omit '^' ---> NO
                    #, ["(et|f|st|ct)-(\d+)\.n", "\g<1>-\g<2>\tn"] # 20191024_112907 ==> working, '.n' converted to "\tn"
-                   , ["(et|f|st|ct|m|ch|cp)-(\d+)\.n", "\g<1>-\g<2>\tn"] # 20191024_112907 ==> working, '.n' converted to "\tn" # 20191129_085145
+                   #, ["(et|f|st|ct|m|ch|cp)-(\d+)\.n", "\g<1>-\g<2>\tn"] # 20191024_112907 ==> working, '.n' converted to "\tn" # 20191129_085145
+                   , ["(et|f|st|ct|m|ch|cp|p|prev)-(\d+)\.n", "\g<1>-\g<2>\tn"] # ==> working, '.n' converted to "\tn" # 20200106_111814
                    
                    #, ["(et|f|st|ct)-(\d+),([a-zA-Z])", "\g<1>-\g<2>\t\g<3>"] # 20191024_112907 ==> working, converted
                    #, ["(et|f|st|ct)-(\d+),([a-zA-Z]+),", "\g<1>-\g<2>\t\g<3>\t"] # 20191107_090118 ==> working
                    , ["(et|f|st|ct)-(\d+),([a-zA-Z]{2,}),", "\g<1>-\g<2>\t\g<3>\t"] # 20191107_090411
+                   
+                   , ["(prev),([a-zA-Z]{2,}),", "\g<1>-\g<2>\t\g<3>\t"] # 20200106_111924
                    
                    #, ["(\d),rev", "\g<1>\trev"]
                    , ["(\d),rev", "\g<1>\trev\t"] # 20191107_084308
