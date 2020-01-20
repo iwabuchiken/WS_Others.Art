@@ -7,7 +7,7 @@ REM ************************
 REM ************************
 REM 	doc
 REM ************************
-taskkill /f /im soffice.bin
+REM taskkill /f /im soffice.bin
 
 REM ************************
 REM 	app : gimp
