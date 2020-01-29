@@ -36,6 +36,7 @@ REM : opera
 	pushd "C:\WORKS_2\Programs\opera"
 	start launcher.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=gt+log&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
 	start launcher.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=gt+video+g-1008&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
+	start launcher.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=gt+compi&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
 REM 	start launcher.exe "https://docs.zoho.com/sheet/open/ek7i4683eb5df87d04a23acef09182e7df623/sheets/free/ranges/A3"
 
 	start launcher.exe "https://www.youtube.com/playlist?list=PLZe1Q2NRG8YXa2FCHsE3Ji3VCOg2Ey8LS"
