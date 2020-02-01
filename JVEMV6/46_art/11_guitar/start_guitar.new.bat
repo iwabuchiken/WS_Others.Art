@@ -62,6 +62,7 @@ REM *******************************
 REM : metronome
 REM 	start launcher.exe "https://www.metronomeonline.com"
 	start launcher.exe "https://www.imusic-school.com/en/tools/online-metronome/"
+	start launcher.exe https://www.flutetunes.com/metronome/
 REM : keyboard
 	start launcher.exe https://pianoplays.com
 REM 	start launcher.exe https://www.onlinepianist.com/virtual-piano
