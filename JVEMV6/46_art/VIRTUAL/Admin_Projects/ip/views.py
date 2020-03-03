@@ -2125,7 +2125,33 @@ def open_dir(request):
 #/ def open_image_dir(request):
 
 def prep_gen_Cake_CSV(request):
-    
+    '''###################
+        open : entries.csv
+    ###################'''
+    #command = "C:\\WORKS_2\\WS\\Eclipse_Luna\\Cake_IFM11\\lib\\others\\entries.ods"
+    #command = "start C:\\WORKS_2\\WS\\Eclipse_Luna\\Cake_IFM11\\lib\\others\\entries.ods"
+    command = "C:\\WORKS_2\\WS\\WS_Cake_IFM11\\commands\\1-3)_open-entries-csv.bat"
+
+    cmd_Full = [command]  #=> 
+#     cmd_Full = [command, arg1]  #=> 
+
+    print()
+    print("[%s:%d] command => %s" % \
+            (os.path.basename(libs.thisfile()), libs.linenum()
+            , command
+            ), file=sys.stderr)
+
+    '''###################
+        subprocess        
+    ###################'''
+    res = subprocess.call(cmd_Full)
+
+    print()
+    print("[%s:%d] res => %s" % \
+            (os.path.basename(libs.thisfile()), libs.linenum()
+            , res
+            ), file=sys.stderr)
+
     '''###################
         vars        
     ###################'''
