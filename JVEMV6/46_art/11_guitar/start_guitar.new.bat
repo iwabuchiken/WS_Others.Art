@@ -61,7 +61,7 @@ REM *******************************
 	pushd "C:\WORKS_2\Programs\opera"
 REM : metronome
 REM 	start launcher.exe "https://www.metronomeonline.com"
-	start launcher.exe "https://www.imusic-school.com/en/tools/online-metronome/"
+REM 	start launcher.exe "https://www.imusic-school.com/en/tools/online-metronome/"
 	start launcher.exe https://www.flutetunes.com/metronome/
 REM : keyboard
 	start launcher.exe https://pianoplays.com
