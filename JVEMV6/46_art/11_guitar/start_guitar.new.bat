@@ -10,8 +10,10 @@ REM *******************************
 REM *******************************
 REM 	open folders
 REM *******************************
-echo start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
-start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
+REM echo start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
+REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
+echo start C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\15_flute
+start C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\15_flute
 
 echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
