@@ -52,10 +52,10 @@ REM *******************************
 REM 	doc
 REM 	2019/09/16 14:18:11
 REM *******************************
-start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar\list_of_memos.ods
+REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar\list_of_memos.ods
 REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar\memos_guitar.odt
 
-start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\15_flute_japanese\JVE_46#15.[flute-japanese].odt
+REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\15_flute_japanese\JVE_46#15.[flute-japanese].odt
 
 REM *******************************
 REM 	apps : metronome
