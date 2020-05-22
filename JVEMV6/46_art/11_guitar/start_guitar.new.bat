@@ -57,6 +57,8 @@ REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar\memos_guitar.odt
 
 REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\15_flute_japanese\JVE_46#15.[flute-japanese].odt
 
+start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\list_session-menues.ods
+
 REM *******************************
 REM 	apps : metronome
 REM 	2019/10/24 15:11:38
