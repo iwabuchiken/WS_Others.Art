@@ -1534,7 +1534,11 @@ def gen_Cake_CSV__Gen_CSVFile(\
     '''###################
         write        
     ###################'''
-    fpath_CSV = "%s/%s" % (dpath_CSV, fname_CSV)
+    #20200525_130415:fix
+    #fpath_CSV = "%s/%s" % (dpath_CSV, fname_CSV)
+    fpath_CSV = "%s\\%s" % (dpath_CSV, fname_CSV)
+    
+    
     
     fin = codecs.open(fpath_CSV, "w", 'utf-8')
     
@@ -1555,6 +1559,31 @@ def gen_Cake_CSV__Gen_CSVFile(\
                     (os.path.basename(libs.thisfile()), libs.linenum()
                     , fpath_CSV
                     ), file=sys.stderr)
+
+
+    #20200525_124752
+    # open csv file
+    command = "start"
+    
+    arg1 = fpath_CSV
+    
+    command = "C:\\Program Files (x86)\\OpenOffice 4\\program\\soffice.exe" + " " + arg1
+    #command = "start" + " " + arg1 #=> "FileNotFoundError: [WinError 2] 指定されたファイルが見つかりません。"
+    #command = arg1
+    
+    #cmd_Full = [command, arg1]	#=> ['start', 'C:\\WORKS_2\\WS\\WS_Others.Art\\JVEMV6\\46_art\\VIRTUAL\\Admin_Projects\\ip\\data\\csv/entries.20200525_125539.csv']
+    cmd_Full = command
+
+    #debug
+    print()
+    print("[%s:%d] opening csv file..." % \
+                    (os.path.basename(libs.thisfile()), libs.linenum()
+                    
+                    ), file=sys.stderr)
+    print(cmd_Full)
+    
+    res = subprocess.call(cmd_Full)
+
     
 #/ def gen_Cake_CSV__Gen_CSVFile(dpath_CSV, fname_CSV, lo_ColorName_Set__Modified_2):
 
