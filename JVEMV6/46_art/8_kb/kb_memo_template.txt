@@ -1,0 +1,43 @@
+1	genr=
+2	sc=
+3	key=
+4	chor=
+5	RH=
+6	LH=
+7	BH=
+8	video=
+9	note=
+10	other=
+11	tempo=
+12	R=
+13	memo=
+14	score=
+15	for=
+16	cp=
+
+#########################regex
+
+### %DELETE EQUAL LINES THAT HAS NO ENTRIES%	// 1
+#\d+\t(.+)=\r\n	
+
+### %COMBINE ALL%	// 2
+#\d+\t(.+)\r\n	$1,
+
+#---------[^\#\t\]a-zA-Z]=.+	=
+
+### %REMOVE RIGHT-HAND OF EQUAL LINES%
+#([^\#\t\]\)]+)=.+	$1=
+
+
+########################
+
+#:VIDEO / @自宅 / メモ / kb,keyboard / 演奏、play / k-2020-0520-4.1 / 
+
+#session menu
+C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\list_session-menues.ods
+
+#php
+php C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\others\jve_37_12.6_keyboard-memo\keyboard-memo.php 1
+
+#open folder
+f C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb

@@ -51,20 +51,25 @@ REM *******************************
 REM 	doc
 REM 	2019/09/16 14:18:11
 REM *******************************
-start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\list_of_memos_keyboard.ods
-start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memos_keyboard.odt
+REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\list_of_memos_keyboard.ods
+REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memos_keyboard.odt
 
 
 REM *******************************
 REM 	apps : metronome
 REM 	2019/10/24 15:11:38
 REM *******************************
-	pushd "C:\WORKS_2\Programs\opera"
+REM : metronome
+pushd "C:\WORKS_2\Programs\opera"
+start launcher.exe https://www.flutetunes.com/metronome/
+
+
+REM 	pushd "C:\WORKS_2\Programs\opera"
 REM : metronome
 REM 	start launcher.exe "https://www.metronomeonline.com"
-	start launcher.exe "https://www.imusic-school.com/en/tools/online-metronome/"
+REM 	start launcher.exe "https://www.imusic-school.com/en/tools/online-metronome/"
 REM : keyboard
-	start launcher.exe https://pianoplays.com
+REM 	start launcher.exe https://pianoplays.com
 REM 	start launcher.exe https://www.onlinepianist.com/virtual-piano
 
 REM pause
