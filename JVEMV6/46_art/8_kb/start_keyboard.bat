@@ -53,7 +53,8 @@ REM 	2019/09/16 14:18:11
 REM *******************************
 REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\list_of_memos_keyboard.ods
 REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memos_keyboard.odt
-
+C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\log_keyboard.odt
+"C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\46#8.[kb].[admin].ods"
 
 REM *******************************
 REM 	apps : metronome
