@@ -1,3 +1,6 @@
+## file : 
+XXX
+
 1	genr=
 2	sc=
 3	key=
@@ -14,6 +17,9 @@
 14	score=
 15	for=
 16	cp=
+17	sound=
+18	ref=
+19	file=
 
 #########################regex
 
@@ -41,3 +47,25 @@ php C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\app\Lib\others\jve_37_12.6_keyboard-me
 
 #open folder
 f C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+
+#steps
+1	entries.ods
+		copy --> file name
+		select --> "XX"
+2	this
+		paste --> file name
+		memo --> add
+3	console
+		exec --> php file
+4	gen-ed txt file
+		C - a > C - c
+		close file
+5	entries.ods
+		C - v :paste
+		Ret
+6	this
+		clear --> memo strings
+		
+	--> to step 1
+
+
