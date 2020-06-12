@@ -1,5 +1,6 @@
-## file : 
 XXX
+
+## file : 
 
 1	genr=
 2	sc=
@@ -52,8 +53,15 @@ f C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
 1	entries.ods
 		copy --> file name
 		select --> "XX"
+			→ > F2 > C - S - ← (select area)
+			C - c
+			Tab
+@@@
 2	this
 		paste --> file name
+			C - Home > S - ↓(select area)
+			C - v (paste)
+			C - r > M - a (remove right hand of "=
 		memo --> add
 3	console
 		exec --> php file
@@ -63,8 +71,9 @@ f C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
 5	entries.ods
 		C - v :paste
 		Ret
-6	this
-		clear --> memo strings
+%6	this%
+%		clear --> memo strings%
+%		(([^\#\t\]\)]+)=.+	$1=
 		
 	--> to step 1
 
