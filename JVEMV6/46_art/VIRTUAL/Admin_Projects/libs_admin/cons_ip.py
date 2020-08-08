@@ -389,13 +389,17 @@ class ColorThresholds(Enum):
         ref : https://docs.google.com/spreadsheets/d/1K0hGC_FFcnUhNEgWi2wYSeDBk0F4dDpSh0y5Dg1DOjE/edit#gid=0
     ###################'''
     #isPink_HSV_Variance__Upper = 0.40
-    isPink_HSV_Variance__Upper = 0.75   # 20190205_153002
+    #isPink_HSV_Variance__Upper = 0.75   # 20190205_153002
+    isPink_HSV_Variance__Upper = 0.77   # 20200722_085321
     isPink_HSV_Variance__Lower = 0.03	# 20190206_100002
     #isPink_HSV_Variance__Lower = 0.18
     
     #isPink_HSV_Average__Upper = 134.70
     #isPink_HSV_Average__Upper = 136.0   # 20190205_152345
-    isPink_HSV_Average__Upper = 141.0   # 20190208_114613
+    #isPink_HSV_Average__Upper = 141.0   # 20190208_114613
+    #isPink_HSV_Average__Upper = 144.0   # 20200720_085213
+    #isPink_HSV_Average__Upper = 147.0   # 20200722_085618
+    isPink_HSV_Average__Upper = 150.0   # 2020年7月31日13:20:52
     isPink_HSV_Average__Lower = 127.9   # 20190205_153437
     #isPink_HSV_Average__Lower = 129.5   # 20190205_150749
     #isPink_HSV_Average__Lower = 131.00
@@ -408,6 +412,17 @@ class ColorThresholds(Enum):
     
     isBlack_HSV_Average__Upper = 0.0
     isBlack_HSV_Average__Lower = 0.0
+
+    #2020年7月31日13:19:30
+    #isPink_HSV_Average__Upper = 147.0   # 20200722_085618
+    #isPink_HSV_Average__Lower = 127.9   # 20190205_153437
+    #isRed_HSV_Average__Upper = 124.6
+    #isRed_HSV_Average__Lower = 115.0
+    #isYellow_HSV_Average__Upper = 99.2
+    #isGreen_HSV_Average__Upper = 85.0 # 20190127_075112
+    #isGreen_HSV_Average__Lower = 58.0
+    #isBlue_HSV_Average__Upper = 17.00 # 20181208_094215   isBlue_HSV_Average__Lower = 8.850	# 20181214_063812
+    
     
 #/ class ColorThresholds(Enum):    
 
@@ -621,7 +636,8 @@ class ColorNameSet(Enum):
 #             '''###################
 #                 p : pink
 #             ###################'''
-            , "ooop" : ":m 記録 / お酒"
+            , "ooop" : ":m 記録 / お酒"	# 20200720_085323
+            #, "ooop" : ":m 記録 / art:sculpture"		# 20200702_130851
             , "oopp" : ":m to-write / diary"
 
 #             '''######################################
