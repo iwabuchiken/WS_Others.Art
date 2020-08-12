@@ -10,6 +10,8 @@ rem ===============================
 rem 	musescore
 rem 	2020”N8ŒŽ8“ú23:36:46
 rem ===============================
-start C:\WORKS_2\Programs\musescore\ms_3.2.3.7635\bin\MuseScore3.exe
+rem start C:\WORKS_2\Programs\musescore\ms_3.2.3.7635\bin\MuseScore3.exe
+
+start C:\WORKS_2\Programs\musescore\musescore_2.3.2\bin\MuseScore.exe
 
 pause
