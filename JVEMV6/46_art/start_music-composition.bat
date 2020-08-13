@@ -14,12 +14,6 @@ rem ===============================
 start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\musescore\02_compos
 
 rem ===============================
-rem 	log file
-rem 	2020”N8ŒŽ13“ú13:29:50
-rem ===============================
-C:\WORKS_2\Programs\sakura\sakura.exe "C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\musescore\02_compos\log_[compos_musescore].txt"
-
-rem ===============================
 rem 	vlc
 rem 	2020”N8ŒŽ13“ú13:32:54
 rem ===============================
@@ -32,5 +26,12 @@ rem ===============================
 start C:\WORKS_2\Programs\musescore\ms_3.2.3.7635\bin\MuseScore3.exe
 
 rem start C:\WORKS_2\Programs\musescore\musescore_2.3.2\bin\MuseScore.exe
+
+rem ===============================
+rem 	log file
+rem 	2020”N8ŒŽ13“ú13:29:50
+rem ===============================
+C:\WORKS_2\Programs\sakura\sakura.exe "C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\musescore\02_compos\log_[compos_musescore].txt"
+
 
 pause

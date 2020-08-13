@@ -6,6 +6,7 @@ REM 	doc
 REM 	metronome
 REM 	console
 REM 	mind map
+REM 	musescore3
 REM ==============================
 
 
@@ -96,6 +97,12 @@ pushd "C:\WORKS_2\WS\FM_2_20171104_225946\Projects\JVEMV6\46 Art\8 kb"
 start 3_music-types.mm
 
 rem start "C:\WORKS_2\WS\FM_2_20171104_225946\Projects\JVEMV6\46 Art\8 kb\3_music-types.mm"
+
+REM ==============================
+REM 	musescore3
+REM 	2020”N8ŒŽ13“ú18:35:12
+REM ==============================
+start C:\WORKS_2\Programs\musescore\ms_3.2.3.7635\bin\MuseScore3.exe
 
 
 REM pause
