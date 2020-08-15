@@ -2,22 +2,44 @@
 
 rem ===============================
 rem 	folders
-rem 	log file
 rem 	vlc
+rem 	browser
 rem 	musescore
+rem 	log file
 rem ===============================
 
 rem ===============================
 rem 	folders
 rem 	2020”N8ŒŽ9“ú22:47:15
 rem ===============================
-start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\musescore\02_compos
+set dir_1=C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\musescore\02_compos
+set dir_2=C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019
+
+start %dir_1% && start %dir_2%
+
+rem start /d %dir_1% /d %dir_2%
+
+rem start /d %dir_1% /d %dir_2%
+
+rem start dir_2
 
 rem ===============================
 rem 	vlc
 rem 	2020”N8ŒŽ13“ú13:32:54
 rem ===============================
 start C:\Users\iwabuchiken\VLC\vlc.exe
+
+
+rem ===============================
+rem 	browser
+rem 	2020”N8ŒŽ15“ú23:54:37
+rem ===============================
+pushd C:\WORKS_2\Programs\opera
+
+set url_1="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
+
+launcher.exe %url_1%
+
 
 rem ===============================
 rem 	musescore
