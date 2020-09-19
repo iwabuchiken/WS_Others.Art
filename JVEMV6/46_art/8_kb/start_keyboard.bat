@@ -19,8 +19,12 @@ start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
 echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 
-echo C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\6_kb
-start C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\6_kb
+rem echo C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\6_kb
+rem start C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\6_kb
+rem 2020”N9ŒŽ10“ú18:16:28
+
+echo C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\a_15_flute
+start C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\a_15_flute
 
 REM ==============================
 REM 	vlc player
@@ -64,23 +68,8 @@ REM : metronome
 REM 	start launcher.exe "https://www.metronomeonline.com"
 REM 	start launcher.exe "https://www.imusic-school.com/en/tools/online-metronome/"
 REM : keyboard
-REM 	start launcher.exe https://pianoplays.com
+start launcher.exe https://pianoplays.com
 REM 	start launcher.exe https://www.onlinepianist.com/virtual-piano
-
-REM ==============================
-REM 	doc
-REM 	2019/09/16 14:18:11
-REM ==============================
-REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\list_of_memos_keyboard.ods
-REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memos_keyboard.odt
-rem C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\log_keyboard.odt
-rem "C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\46#8.[kb].[admin].ods"
-
-rem C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\6_kb\log_kb.txt
-rem "C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\6_kb\log_kb.txt"
-rem C:\WORKS_2\shortcuts_docs\log_kb.txt
-start C:\WORKS_2\shortcuts_docs\log_kb.txt
-
 
 REM ==============================
 REM 	console
@@ -102,7 +91,28 @@ REM ==============================
 REM 	musescore3
 REM 	2020”N8ŒŽ13“ú18:35:12
 REM ==============================
-start C:\WORKS_2\Programs\musescore\ms_3.2.3.7635\bin\MuseScore3.exe
+rem commet out 2020”N9ŒŽ4“ú18:18:30
+rem start C:\WORKS_2\Programs\musescore\ms_3.2.3.7635\bin\MuseScore3.exe
+
+REM ==============================
+REM 	doc
+REM 	2019/09/16 14:18:11
+REM ==============================
+REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\list_of_memos_keyboard.ods
+REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memos_keyboard.odt
+rem C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\log_keyboard.odt
+rem "C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\46#8.[kb].[admin].ods"
+
+rem C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\6_kb\log_kb.txt
+rem "C:\WORKS_2\WS\WS_Cake_IFM11\movies_WS_Cake_IFM11\2019\6_kb\log_kb.txt"
+rem C:\WORKS_2\shortcuts_docs\log_kb.txt
+rem start C:\WORKS_2\shortcuts_docs\log_kb.txt
+rem start "C:\WORKS_2\shortcuts_docs\log_[flute].txt"
+
+set text_1="C:\WORKS_2\shortcuts_docs\log_[flute].txt"
+
+C:\WORKS_2\Programs\sakura\sakura.exe %text_1%
+
 
 
 REM pause
