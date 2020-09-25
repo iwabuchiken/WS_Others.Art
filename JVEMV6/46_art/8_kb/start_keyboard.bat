@@ -92,7 +92,8 @@ REM 	musescore3
 REM 	2020”N8ŒŽ13“ú18:35:12
 REM ==============================
 rem commet out 2020”N9ŒŽ4“ú18:18:30
-rem start C:\WORKS_2\Programs\musescore\ms_3.2.3.7635\bin\MuseScore3.exe
+rem commet in	2020”N9ŒŽ24“ú18:28:09
+start C:\WORKS_2\Programs\musescore\ms_3.2.3.7635\bin\MuseScore3.exe
 
 REM ==============================
 REM 	doc
