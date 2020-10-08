@@ -9,7 +9,7 @@ echo msg is %msg%
 
 echo.
 
-r a && git add -A && git commit -m "(res : JVE_46# : compositions) periodical updates / %msg%" && e && p
+C:\WORKS_2\a.bat && r a && git add -A && git commit -m "(res : JVE_46# : compositions) periodical updates / %msg%" && e && p
 
 rem echo "C:\WORKS_2\a.bat && r a && git add -A && git commit -m ^"(res : JVE_46# : compositions) periodical updates / %msg%^" && e && p"
 
