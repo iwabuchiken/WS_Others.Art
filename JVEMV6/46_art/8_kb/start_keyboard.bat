@@ -60,7 +60,8 @@ REM 	2019/10/24 15:11:38
 REM ==============================
 REM : metronome
 pushd "C:\WORKS_2\Programs\opera"
-start launcher.exe https://www.flutetunes.com/metronome/
+rem : comment out 2020”N10ŒŽ11“ú18:13:24
+rem start launcher.exe https://www.flutetunes.com/metronome/
 
 
 REM 	pushd "C:\WORKS_2\Programs\opera"
@@ -82,8 +83,8 @@ REM ==============================
 REM 	mind map
 REM 	2020”N7ŒŽ20“ú18:35:01
 REM ==============================
-pushd "C:\WORKS_2\WS\FM_2_20171104_225946\Projects\JVEMV6\46 Art\8 kb"
-start 3_music-types.mm
+rem pushd "C:\WORKS_2\WS\FM_2_20171104_225946\Projects\JVEMV6\46 Art\8 kb"
+rem start 3_music-types.mm
 
 rem start "C:\WORKS_2\WS\FM_2_20171104_225946\Projects\JVEMV6\46 Art\8 kb\3_music-types.mm"
 
