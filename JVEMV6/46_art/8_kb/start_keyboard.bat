@@ -86,7 +86,8 @@ REM ==============================
 rem pushd "C:\WORKS_2\WS\FM_2_20171104_225946\Projects\JVEMV6\46 Art\8 kb"
 rem start 3_music-types.mm
 
-rem start "C:\WORKS_2\WS\FM_2_20171104_225946\Projects\JVEMV6\46 Art\8 kb\3_music-types.mm"
+rem : comment in 2020”N10ŒŽ21“ú19:08:01
+start "C:\WORKS_2\WS\FM_2_20171104_225946\Projects\JVEMV6\46 Art\8 kb\3_music-types.mm"
 
 REM ==============================
 REM 	musescore3
