@@ -18,13 +18,57 @@
 
 	res free# JVEMV6 46# 6.5.2_2 / 46. art / 6. visual-art / 5. free-painting / 2. 風神 / 2020年12月5日17:02:52
 
+	1. review
+		1. steps
+			#1. layer : Fujin.jpg
+				1. DUP ==> L4
+					from : 7_s-1.(1).xcf
+			2. L4
+				1. 二値化
+					色＞しきい値
+						188 / 255
+				2. L4 ==> DUP : L4.1
+			#3. L4.1
+				#1. 色域選択 : 選択＞色域選択
+				#2. 描画色　=>　変更
+					HTML : 1ebcd6
+				#3. 編集＞描画色で塗りつぶす
+				#4. モード変更
+					1. "R"
+					2. click on the canvas
+				#5. png ==> export
+					46_5.2.[L4.1].(1).png
+					1. C - e
+					2. save : C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\5_free-painting\2_fuujin
+					
+
+	n:
+		1. L4.1 ==> 背景の、白色　=>　別の色にしてみる
+
+]17:19:47
+
+
+================================ 
+
+
+
 
 @@@
 ================================ 
 
 
 
+
+
 ================================ 
+
+
+
+
+
+================================ 
+
+
 
 
 
@@ -58,4 +102,4 @@
 
 
 ========================= EOF ========================
-C:\WORKS_2\a.bat && r a && git add . && git commit -m "(46_art\6_visual-arts\7_for-music-clip : log_[7_for-music-clip]) periodical updates" && e && p && C:\WORKS_2\Utils\commands\push_fm.bat
+C:\WORKS_2\a.bat && r a && git add . && git commit -m "(46_6.5.2 : log_[5_free-painting]) periodical updates" && e && p && C:\WORKS_2\Utils\commands\push_fm.bat
