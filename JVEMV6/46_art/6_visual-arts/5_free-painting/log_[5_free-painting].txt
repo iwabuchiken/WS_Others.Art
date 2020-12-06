@@ -16,7 +16,7 @@
 ================================ 
 2020年12月5日17:02:24
 
-	res free# JVEMV6 46# 6.5.2_2 / 46. art / 6. visual-art / 5. free-painting / 2. 風神 / 2020年12月5日17:02:52
+	res free# JVEMV6 46# 6.5.2_2 / 46. art / 6. visual-art / 5. free-painting / 2. 風神 / session-1 / 2020年12月5日17:02:52
 
 	1. review
 		1. steps
@@ -49,17 +49,83 @@
 
 
 ================================ 
+2020年12月6日14:55:12
 
+res free# JVEMV6 46# 6.5.2_2 / 46. art / 6. visual-art / 5. free-painting / 2. 風神 / session-2 / 2020年12月6日15:10:04
 
+	1. 2020-12-06_11-42-32_000.jpg
+		==> execute the idea
+		#1. 46_5.2.xcf	::]15:38:51
+			1. layer : L4 ==> DUP
+				==> L5
+			2. L5
+				1. 左腕、前腕 ==> 選択
+				2. 選択＞パスを選択範囲に
+				3. C - x > C - v
+				4. 「フローティング選択範囲」　=>　独自のレイヤーに
+				5. key "R" ==> パス選択、解除
+				6. 「フローティング選択範囲」
+					1. right click on the "floating"
+					#2. "新しいレイヤー"
+					#3. rename ==> L5.arm
+			3. L5.arm
+				0. DUP ==> L5.arm.orig
+					1. DUP
+					2. rename
+					3. move 1 layer under
+					4. invisible
+				#1. 回転 ==> S - r
+					1. 65.33
+					2. "回転"
+				#2. 移動 ==> "M"
+					1. -72, 10
+			4. export images
+				#1. L4 + / L5 ~ / L5.arm ~ ==> 46_5.2.(session-2).(1).png
+				2. L4 + / L5 + / L5.arm ~ ==> 46_5.2.(session-2).(2).png
+				3. L4 + / L5 + / L5.arm + ==> 46_5.2.(session-2).(3).png
+			#5. images ==> processing : ImageJ
+				1. 46_5.2.(session-2).(2).png ==> DUP --> 46_5.2.(session-2).(4).png (arm ==> blank)
+				2. start ==> "ImageJ"
+					1. file > import > image sequence
+						dir : C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\5_free-painting\2_fuujin\dir-for-ImageJ
+					2. image > type > 8-bit
+					3. file > save as > gif
+						==> file name : 46_5.2.(session-2).(1).png.gif
+						==> DROP
+					4. save as ==> AVI
+						1. file > save as > avi
+						2. jpeg, 2 fps
+						3. name : 46_5.2.(session-2).(1).png.avi
+				3. gen video : 2nd try
+					1. 46_5.2.(session-2).(4).png ==> DUP : 46_5.2.(session-2).(5).png
+					2. gen avi ==> use 5 image files
+						name : 46_5.2.(session-2).(1).png.(1).avi
+				4. gen video : 3rd try
+					#1. 46_5.2.(session-2).(5).png ==> change the source :
+						from : 46_5.2.(session-2).(4).png
+						to	: 46_5.2.(session-2).(1).png
+					2. gen avi ==> use 5 image files
+						name : 46_5.2.(session-2).(1).png.(2).avi
+					==> OK	::]15:32:30
+			#6. gen-ed video file ==> to mobile
+				1. target : 46_5.2.(session-2).(1).png.(2).avi
+					from	: C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\5_free-painting\2_fuujin\
+					to		: コンピューター\HUAWEI P30 lite\内部ストレージ\DCIM\Camera
+			
+	n:
+		1. 今回は、手を動かした（左手）　=>　の後に、顔も、動かしてみる
+		2. L4.1 ==> 透明度を変えながら、L5 と合わせて（L4.1 >> L5 )、６枚ぐらいの image file を gen する　=>　アニメーションに
+		3. 各シーンの image file の、枚数。「出現場面」のファイル（腕が現れている image）を、枚数を、より多くする。e.g. 「出現」を、３枚、「消失」を、１枚。そして、ImageJ で、fps を 1 にして、gen video.
+		4. 今日、登録した、cake の image の中の、アイデアメモ。被写体の、本体領域を透明に。
 
+]15:44:36
 
-@@@
 ================================ 
 
 
 
 
-
+@@@
 ================================ 
 
 
@@ -102,4 +168,4 @@
 
 
 ========================= EOF ========================
-C:\WORKS_2\a.bat && r a && git add . && git commit -m "(46_6.5.2 : log_[5_free-painting]) periodical updates" && e && p && C:\WORKS_2\Utils\commands\push_fm.bat
+C:\WORKS_2\a.bat && r a && g a . && g c -m "(46_6.5.2 : log_[5_free-painting]) periodical updates" && e && p && pushd C:\WORKS_2\shortcuts_docs && g a . && g c -m "(46_6.5.2 : log_[5_free-painting]) periodical updates" && C:\WORKS_2\Utils\commands\push_fm.bat
