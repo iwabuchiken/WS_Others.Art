@@ -121,17 +121,76 @@ res free# JVEMV6 46# 6.5.2_2 / 46. art / 6. visual-art / 5. free-painting / 2. �
 ]15:44:36
 
 ================================ 
+2020年12月7日16:29:47
 
+	1. N-1 : "今回は、手を動かした（左手）　=>　の後に、顔も、動かしてみる"
+		1. L5 ==> DUP --> L5-1
+		2. L5-1 ==> 選択、顔部分
+			1. "B"
+			1. face ==> 選択
+				#2. 選択＞パスを選択範囲に
+				#3. C - x > C - v
+				#4. 「フローティング選択範囲」　=>　独自のレイヤーに
+				#5. key "R" ==> パス選択、解除
+				#6. 「フローティング選択範囲」
+					1. right click on the "floating"
+					2. "新しいレイヤー"
+					#3. rename ==> L5.face
+			2. L5.face
+				#0. DUP ==> L5.face.orig
+					1. DUP
+					2. rename
+					3. move 1 layer under
+					4. invisible
+			3. L5.face
+				1. 回転 ==> S - r
+						1. 30.36
+						2. "回転"
+				2. layer ==> rename
+						L5.face.rot-R-30
+			#4. L5.face.orig
+				0. DUP ==> L5.face.copy
+				1. 回転 ==> S - r
+						1. -30
+						2. "回転"
+				2. layer ==> rename
+						L5.face.rot-L-30
+		3. export images
+				1. visible : L5-1,L5.arm.orig, L5.face.orig ==> 46_5.2.(session-3).(1).png // C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\5_free-painting\2_fuujin\session-3
+				2. visible : L5-1 / L5.arm.orig ~ / L5.face.orig ==> 46_5.2.(session-3).(2).png
+				#3. visible : L5-1 / L5.arm.orig ~ / L5.face.orig / L5.arm + ==> 46_5.2.(session-3).(3).png
+				#4. visible : L5-1 / L5.arm.orig ~ / L5.face.orig ~ / L5.arm + ==> 46_5.2.(session-3).(4).png
+				#5. visible : L5-1 / L5.arm.orig ~ / L5.face.orig ~ / L5.arm + / L5.face.rot-R-30 + ==> 46_5.2.(session-3).(5).png
+				#6. visible : L5-1 / L5.arm.orig ~ / L5.face.orig ~ / L5.arm + / L5.face.rot-R-30 ~ / L5.face.rot-L-30 + ==> 46_5.2.(session-3).(6).png
+		4. build : movie
+			#1. 46_5.2.(session-3).(1).png
+				0. to the frame area of MovieMaker
+				1. tab "編集"
+				#2. "再生時間" ==> to 2 sec
+			2. 46_5.2.(session-3).(2).png
+				0. to the frame area of MovieMaker
+				1. tab "編集"
+				2. "再生時間" ==> to 1 sec
+				#3. ==> to 0.40
+			#*. save file
+				46_5.2.(session-3).(version-1).wlmp // C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\5_free-painting\2_fuujin\session-3
+				46_5.2.(session-3).(version-1).(1).wmv
+					--> "コンピュータ用"
+			==> OK	::]17:04:04
+	
+	n:
+		1. "build movie"
+			46_5.2.(session-3).(3).png
+		2. prev N items, no.2~
 
+]17:04:42
 
-
-@@@
 ================================ 
 
 
 
 
-
+@@@
 ================================ 
 
 
