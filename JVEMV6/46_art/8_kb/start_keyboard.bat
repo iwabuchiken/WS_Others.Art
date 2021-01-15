@@ -73,7 +73,7 @@ REM 	apps : metronome
 REM 	2019/10/24 15:11:38
 REM ==============================
 REM : metronome
-pushd "C:\WORKS_2\Programs\opera"
+rem pushd "C:\WORKS_2\Programs\opera"
 rem : comment out 2020”N10ŒŽ11“ú18:13:24
 rem start launcher.exe https://www.flutetunes.com/metronome/
 
@@ -83,6 +83,8 @@ REM : metronome
 REM 	start launcher.exe "https://www.metronomeonline.com"
 REM 	start launcher.exe "https://www.imusic-school.com/en/tools/online-metronome/"
 REM : keyboard
+pushd "C:\WORKS_2\Programs\opera"
+
 start launcher.exe https://pianoplays.com
 REM 	start launcher.exe https://www.onlinepianist.com/virtual-piano
 
@@ -127,9 +129,11 @@ rem C:\WORKS_2\shortcuts_docs\log_kb.txt
 rem start C:\WORKS_2\shortcuts_docs\log_kb.txt
 rem start "C:\WORKS_2\shortcuts_docs\log_[flute].txt"
 
-set text_1="C:\WORKS_2\shortcuts_docs\log_[flute].txt"
+rem : comment out : 2021”N1ŒŽ10“ú18:02:07
+rem set text_1="C:\WORKS_2\shortcuts_docs\log_[flute].txt"
 
-C:\WORKS_2\Programs\sakura\sakura.exe %text_1%
+rem : comment out : 2021”N1ŒŽ10“ú18:02:07
+rem C:\WORKS_2\Programs\sakura\sakura.exe %text_1%
 
 
 
