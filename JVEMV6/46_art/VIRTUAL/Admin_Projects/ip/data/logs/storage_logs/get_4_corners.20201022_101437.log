@@ -1,0 +1,756 @@
+[20201022_101636 / views.py:1851] gen_Cake_CSV(request) ==> starting... =======================
+[20201022_101638 / lib_ip.py:2274] inspecting ===> img.20201022_101638.2020-10-21_14-26-38_000.jpg.1.png
+[20201022_101638 / lib_ip.py:4505] 
+img.20201022_101638.2020-10-21_14-26-38_000.jpg.1.png 0 ---------------------
+[20201022_101638 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.1.png / val_Average = 81.7037	val_Variance = 67.4021	sd = 8.2099	max = 135	min = 0
+[20201022_101639 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101639 / lib_ip.py:3869] yellow : variance --> out of range (variance = 67.402 / upper = 0.650 / lower = 0.000)
+[20201022_101639 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.1.png / val_Average = 81.7037	val_Variance = 67.4021	sd = 8.2099	max = 135	min = 0
+[20201022_101639 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101639 / lib_ip.py:3982] red : variance --> out of range (variance = 67.402 / upper = 0.430 / lower = 0.000)
+[20201022_101639 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.1.png / val_Average = 81.7037	val_Variance = 67.4021	sd = 8.2099	max = 135	min = 0
+[20201022_101639 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101639 / lib_ip.py:4099] green : variance --> out of range (variance = 67.402 / upper = 0.760 / lower = 0.000)
+[20201022_101639 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.1.png / val_Average = 81.7037	val_Variance = 67.4021	sd = 8.2099	max = 135	min = 0
+[20201022_101639 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101639 / lib_ip.py:4208] blue : variance --> out of range (variance = 67.402 / upper = 0.930 / lower = 0.010)
+[20201022_101639 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.1.png / val_Average = 81.7037	val_Variance = 67.4021	sd = 8.2099	max = 135	min = 0
+[20201022_101639 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101639 / lib_ip.py:4314] pink : variance --> out of range (variance = 67.402 / upper = 0.770 / lower = 0.030)
+[20201022_101639 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.1.png / val_Average = 81.7037	val_Variance = 67.4021	sd = 8.2099	max = 135	min = 0
+[20201022_101639 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101639 / lib_ip.py:4422] black : variance --> out of range (variance = 67.402 / upper = 0.000 / lower = 0.000)
+[20201022_101640 / lib_ip.py:4593] file : img.20201022_101638.2020-10-21_14-26-38_000.jpg.1.png 0 (black : variance --> out of range (variance = 67.402 / upper = 0.000 / lower = 0.000))
+[20201022_101640 / lib_ip.py:2274] inspecting ===> img.20201022_101638.2020-10-21_14-26-38_000.jpg.2.png
+[20201022_101640 / lib_ip.py:4505] 
+img.20201022_101638.2020-10-21_14-26-38_000.jpg.2.png 1 ---------------------
+[20201022_101640 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.2.png / val_Average = 12.6717	val_Variance = 1.2800	sd = 1.1314	max = 16	min = 8
+[20201022_101640 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101640 / lib_ip.py:3869] yellow : variance --> out of range (variance = 1.280 / upper = 0.650 / lower = 0.000)
+[20201022_101640 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.2.png / val_Average = 12.6717	val_Variance = 1.2800	sd = 1.1314	max = 16	min = 8
+[20201022_101640 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101640 / lib_ip.py:3982] red : variance --> out of range (variance = 1.280 / upper = 0.430 / lower = 0.000)
+[20201022_101640 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.2.png / val_Average = 12.6717	val_Variance = 1.2800	sd = 1.1314	max = 16	min = 8
+[20201022_101640 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101640 / lib_ip.py:4099] green : variance --> out of range (variance = 1.280 / upper = 0.760 / lower = 0.000)
+[20201022_101640 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.2.png / val_Average = 12.6717	val_Variance = 1.2800	sd = 1.1314	max = 16	min = 8
+[20201022_101640 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101641 / lib_ip.py:4208] blue : variance --> out of range (variance = 1.280 / upper = 0.930 / lower = 0.010)
+[20201022_101641 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.2.png / val_Average = 12.6717	val_Variance = 1.2800	sd = 1.1314	max = 16	min = 8
+[20201022_101641 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101641 / lib_ip.py:4314] pink : variance --> out of range (variance = 1.280 / upper = 0.770 / lower = 0.030)
+[20201022_101641 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.2.png / val_Average = 12.6717	val_Variance = 1.2800	sd = 1.1314	max = 16	min = 8
+[20201022_101641 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101641 / lib_ip.py:4422] black : variance --> out of range (variance = 1.280 / upper = 0.000 / lower = 0.000)
+[20201022_101641 / lib_ip.py:4593] file : img.20201022_101638.2020-10-21_14-26-38_000.jpg.2.png 1 (black : variance --> out of range (variance = 1.280 / upper = 0.000 / lower = 0.000))
+[20201022_101641 / lib_ip.py:2274] inspecting ===> img.20201022_101638.2020-10-21_14-26-38_000.jpg.3.png
+[20201022_101641 / lib_ip.py:4505] 
+img.20201022_101638.2020-10-21_14-26-38_000.jpg.3.png 2 ---------------------
+[20201022_101641 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.3.png / val_Average = 76.3706	val_Variance = 4320.3298	sd = 65.7292	max = 176	min = 0
+[20201022_101641 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101641 / lib_ip.py:3869] yellow : variance --> out of range (variance = 4320.330 / upper = 0.650 / lower = 0.000)
+[20201022_101641 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.3.png / val_Average = 76.3706	val_Variance = 4320.3298	sd = 65.7292	max = 176	min = 0
+[20201022_101641 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101641 / lib_ip.py:3982] red : variance --> out of range (variance = 4320.330 / upper = 0.430 / lower = 0.000)
+[20201022_101641 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.3.png / val_Average = 76.3706	val_Variance = 4320.3298	sd = 65.7292	max = 176	min = 0
+[20201022_101642 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101642 / lib_ip.py:4099] green : variance --> out of range (variance = 4320.330 / upper = 0.760 / lower = 0.000)
+[20201022_101642 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.3.png / val_Average = 76.3706	val_Variance = 4320.3298	sd = 65.7292	max = 176	min = 0
+[20201022_101642 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101642 / lib_ip.py:4208] blue : variance --> out of range (variance = 4320.330 / upper = 0.930 / lower = 0.010)
+[20201022_101642 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.3.png / val_Average = 76.3706	val_Variance = 4320.3298	sd = 65.7292	max = 176	min = 0
+[20201022_101642 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101642 / lib_ip.py:4314] pink : variance --> out of range (variance = 4320.330 / upper = 0.770 / lower = 0.030)
+[20201022_101642 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.3.png / val_Average = 76.3706	val_Variance = 4320.3298	sd = 65.7292	max = 176	min = 0
+[20201022_101642 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101642 / lib_ip.py:4422] black : variance --> out of range (variance = 4320.330 / upper = 0.000 / lower = 0.000)
+[20201022_101642 / lib_ip.py:4593] file : img.20201022_101638.2020-10-21_14-26-38_000.jpg.3.png 2 (black : variance --> out of range (variance = 4320.330 / upper = 0.000 / lower = 0.000))
+[20201022_101642 / lib_ip.py:2274] inspecting ===> img.20201022_101638.2020-10-21_14-26-38_000.jpg.4.png
+[20201022_101642 / lib_ip.py:4505] 
+img.20201022_101638.2020-10-21_14-26-38_000.jpg.4.png 3 ---------------------
+[20201022_101642 / lib_ip.py:3753] file = img.20201022_101638.2020-10-21_14-26-38_000.jpg.4.png / val_Average = 88.2504	val_Variance = 0.1916	sd = 0.4378	max = 89	min = 87
+[20201022_101642 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101642 / lib_ip.py:2274] inspecting ===> img.20201022_101638.2020-10-21_14-26-38_000.jpg.4.png
+img.20201022_101638.2020-10-21_14-26-38_000.jpg.1.png => other
+img.20201022_101638.2020-10-21_14-26-38_000.jpg.2.png => other
+img.20201022_101638.2020-10-21_14-26-38_000.jpg.3.png => other
+img.20201022_101638.2020-10-21_14-26-38_000.jpg.4.png => yellow
+[20201022_101643 lib_ip.py:3301] =============== Get 4 corners
+dpath_Images = C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\Admin_Projects\ip\images
+fname_Image = img.20201022_101638.2020-10-21_14-26-38_000.jpg.4.png
+
+[20201022_101644 / lib_ip.py:2274] inspecting ===> img.20201022_101643.2020-10-21_16-59-36_000.jpg.1.png
+[20201022_101644 / lib_ip.py:4505] 
+img.20201022_101643.2020-10-21_16-59-36_000.jpg.1.png 0 ---------------------
+[20201022_101644 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.1.png / val_Average = 119.7389	val_Variance = 0.2092	sd = 0.4574	max = 121	min = 119
+[20201022_101644 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101644 / lib_ip.py:3891] yellow : average --> out of range (average = 119.739 / upper = 99.200 / lower = 85.500)
+[20201022_101644 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.1.png / val_Average = 119.7389	val_Variance = 0.2092	sd = 0.4574	max = 121	min = 119
+[20201022_101644 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101644 / lib_ip.py:2274] inspecting ===> img.20201022_101643.2020-10-21_16-59-36_000.jpg.2.png
+[20201022_101644 / lib_ip.py:4505] 
+img.20201022_101643.2020-10-21_16-59-36_000.jpg.2.png 1 ---------------------
+[20201022_101644 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.2.png / val_Average = 78.3158	val_Variance = 0.2205	sd = 0.4696	max = 79	min = 77
+[20201022_101644 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101645 / lib_ip.py:3891] yellow : average --> out of range (average = 78.316 / upper = 99.200 / lower = 85.500)
+[20201022_101645 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.2.png / val_Average = 78.3158	val_Variance = 0.2205	sd = 0.4696	max = 79	min = 77
+[20201022_101645 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101645 / lib_ip.py:4007] red : average --> out of range (average = 78.316 / upper = 124.600 / lower = 115.000)
+[20201022_101645 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.2.png / val_Average = 78.3158	val_Variance = 0.2205	sd = 0.4696	max = 79	min = 77
+[20201022_101645 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101645 / lib_ip.py:2274] inspecting ===> img.20201022_101643.2020-10-21_16-59-36_000.jpg.3.png
+[20201022_101645 / lib_ip.py:4505] 
+img.20201022_101643.2020-10-21_16-59-36_000.jpg.3.png 2 ---------------------
+[20201022_101645 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.3.png / val_Average = 100.3589	val_Variance = 28.7212	sd = 5.3592	max = 114	min = 84
+[20201022_101645 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101645 / lib_ip.py:3869] yellow : variance --> out of range (variance = 28.721 / upper = 0.650 / lower = 0.000)
+[20201022_101645 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.3.png / val_Average = 100.3589	val_Variance = 28.7212	sd = 5.3592	max = 114	min = 84
+[20201022_101645 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101646 / lib_ip.py:3982] red : variance --> out of range (variance = 28.721 / upper = 0.430 / lower = 0.000)
+[20201022_101646 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.3.png / val_Average = 100.3589	val_Variance = 28.7212	sd = 5.3592	max = 114	min = 84
+[20201022_101646 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101646 / lib_ip.py:4099] green : variance --> out of range (variance = 28.721 / upper = 0.760 / lower = 0.000)
+[20201022_101646 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.3.png / val_Average = 100.3589	val_Variance = 28.7212	sd = 5.3592	max = 114	min = 84
+[20201022_101646 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101646 / lib_ip.py:4208] blue : variance --> out of range (variance = 28.721 / upper = 0.930 / lower = 0.010)
+[20201022_101646 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.3.png / val_Average = 100.3589	val_Variance = 28.7212	sd = 5.3592	max = 114	min = 84
+[20201022_101646 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101646 / lib_ip.py:4314] pink : variance --> out of range (variance = 28.721 / upper = 0.770 / lower = 0.030)
+[20201022_101646 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.3.png / val_Average = 100.3589	val_Variance = 28.7212	sd = 5.3592	max = 114	min = 84
+[20201022_101646 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101646 / lib_ip.py:4422] black : variance --> out of range (variance = 28.721 / upper = 0.000 / lower = 0.000)
+[20201022_101646 / lib_ip.py:4593] file : img.20201022_101643.2020-10-21_16-59-36_000.jpg.3.png 2 (black : variance --> out of range (variance = 28.721 / upper = 0.000 / lower = 0.000))
+[20201022_101646 / lib_ip.py:2274] inspecting ===> img.20201022_101643.2020-10-21_16-59-36_000.jpg.4.png
+[20201022_101647 / lib_ip.py:4505] 
+img.20201022_101643.2020-10-21_16-59-36_000.jpg.4.png 3 ---------------------
+[20201022_101647 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.4.png / val_Average = 104.1962	val_Variance = 3.1365	sd = 1.7710	max = 110	min = 99
+[20201022_101647 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101647 / lib_ip.py:3869] yellow : variance --> out of range (variance = 3.136 / upper = 0.650 / lower = 0.000)
+[20201022_101647 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.4.png / val_Average = 104.1962	val_Variance = 3.1365	sd = 1.7710	max = 110	min = 99
+[20201022_101647 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101647 / lib_ip.py:3982] red : variance --> out of range (variance = 3.136 / upper = 0.430 / lower = 0.000)
+[20201022_101647 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.4.png / val_Average = 104.1962	val_Variance = 3.1365	sd = 1.7710	max = 110	min = 99
+[20201022_101647 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101647 / lib_ip.py:4099] green : variance --> out of range (variance = 3.136 / upper = 0.760 / lower = 0.000)
+[20201022_101647 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.4.png / val_Average = 104.1962	val_Variance = 3.1365	sd = 1.7710	max = 110	min = 99
+[20201022_101647 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101648 / lib_ip.py:4208] blue : variance --> out of range (variance = 3.136 / upper = 0.930 / lower = 0.010)
+[20201022_101648 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.4.png / val_Average = 104.1962	val_Variance = 3.1365	sd = 1.7710	max = 110	min = 99
+[20201022_101648 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101648 / lib_ip.py:4314] pink : variance --> out of range (variance = 3.136 / upper = 0.770 / lower = 0.030)
+[20201022_101648 / lib_ip.py:3753] file = img.20201022_101643.2020-10-21_16-59-36_000.jpg.4.png / val_Average = 104.1962	val_Variance = 3.1365	sd = 1.7710	max = 110	min = 99
+[20201022_101648 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101648 / lib_ip.py:4422] black : variance --> out of range (variance = 3.136 / upper = 0.000 / lower = 0.000)
+[20201022_101648 / lib_ip.py:4593] file : img.20201022_101643.2020-10-21_16-59-36_000.jpg.4.png 3 (black : variance --> out of range (variance = 3.136 / upper = 0.000 / lower = 0.000))
+[20201022_101646 / lib_ip.py:2274] inspecting ===> img.20201022_101643.2020-10-21_16-59-36_000.jpg.4.png
+img.20201022_101643.2020-10-21_16-59-36_000.jpg.1.png => red
+img.20201022_101643.2020-10-21_16-59-36_000.jpg.2.png => other
+img.20201022_101643.2020-10-21_16-59-36_000.jpg.3.png => other
+img.20201022_101643.2020-10-21_16-59-36_000.jpg.4.png => other
+[20201022_101648 lib_ip.py:3301] =============== Get 4 corners
+dpath_Images = C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\Admin_Projects\ip\images
+fname_Image = img.20201022_101643.2020-10-21_16-59-36_000.jpg.4.png
+
+[20201022_101649 / lib_ip.py:2274] inspecting ===> img.20201022_101649.2020-10-21_18-20-03_000.jpg.1.png
+[20201022_101649 / lib_ip.py:4505] 
+img.20201022_101649.2020-10-21_18-20-03_000.jpg.1.png 0 ---------------------
+[20201022_101649 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.1.png / val_Average = 100.9285	val_Variance = 2251.2123	sd = 47.4469	max = 168	min = 0
+[20201022_101649 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101649 / lib_ip.py:3869] yellow : variance --> out of range (variance = 2251.212 / upper = 0.650 / lower = 0.000)
+[20201022_101649 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.1.png / val_Average = 100.9285	val_Variance = 2251.2123	sd = 47.4469	max = 168	min = 0
+[20201022_101649 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101649 / lib_ip.py:3982] red : variance --> out of range (variance = 2251.212 / upper = 0.430 / lower = 0.000)
+[20201022_101649 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.1.png / val_Average = 100.9285	val_Variance = 2251.2123	sd = 47.4469	max = 168	min = 0
+[20201022_101649 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101649 / lib_ip.py:4099] green : variance --> out of range (variance = 2251.212 / upper = 0.760 / lower = 0.000)
+[20201022_101650 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.1.png / val_Average = 100.9285	val_Variance = 2251.2123	sd = 47.4469	max = 168	min = 0
+[20201022_101650 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101650 / lib_ip.py:4208] blue : variance --> out of range (variance = 2251.212 / upper = 0.930 / lower = 0.010)
+[20201022_101650 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.1.png / val_Average = 100.9285	val_Variance = 2251.2123	sd = 47.4469	max = 168	min = 0
+[20201022_101650 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101650 / lib_ip.py:4314] pink : variance --> out of range (variance = 2251.212 / upper = 0.770 / lower = 0.030)
+[20201022_101650 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.1.png / val_Average = 100.9285	val_Variance = 2251.2123	sd = 47.4469	max = 168	min = 0
+[20201022_101650 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101650 / lib_ip.py:4422] black : variance --> out of range (variance = 2251.212 / upper = 0.000 / lower = 0.000)
+[20201022_101650 / lib_ip.py:4593] file : img.20201022_101649.2020-10-21_18-20-03_000.jpg.1.png 0 (black : variance --> out of range (variance = 2251.212 / upper = 0.000 / lower = 0.000))
+[20201022_101650 / lib_ip.py:2274] inspecting ===> img.20201022_101649.2020-10-21_18-20-03_000.jpg.2.png
+[20201022_101650 / lib_ip.py:4505] 
+img.20201022_101649.2020-10-21_18-20-03_000.jpg.2.png 1 ---------------------
+[20201022_101651 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.2.png / val_Average = 98.3930	val_Variance = 22.5971	sd = 4.7536	max = 135	min = 84
+[20201022_101651 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101651 / lib_ip.py:3869] yellow : variance --> out of range (variance = 22.597 / upper = 0.650 / lower = 0.000)
+[20201022_101651 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.2.png / val_Average = 98.3930	val_Variance = 22.5971	sd = 4.7536	max = 135	min = 84
+[20201022_101651 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101651 / lib_ip.py:3982] red : variance --> out of range (variance = 22.597 / upper = 0.430 / lower = 0.000)
+[20201022_101651 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.2.png / val_Average = 98.3930	val_Variance = 22.5971	sd = 4.7536	max = 135	min = 84
+[20201022_101651 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101651 / lib_ip.py:4099] green : variance --> out of range (variance = 22.597 / upper = 0.760 / lower = 0.000)
+[20201022_101651 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.2.png / val_Average = 98.3930	val_Variance = 22.5971	sd = 4.7536	max = 135	min = 84
+[20201022_101651 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101651 / lib_ip.py:4208] blue : variance --> out of range (variance = 22.597 / upper = 0.930 / lower = 0.010)
+[20201022_101651 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.2.png / val_Average = 98.3930	val_Variance = 22.5971	sd = 4.7536	max = 135	min = 84
+[20201022_101651 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101651 / lib_ip.py:4314] pink : variance --> out of range (variance = 22.597 / upper = 0.770 / lower = 0.030)
+[20201022_101651 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.2.png / val_Average = 98.3930	val_Variance = 22.5971	sd = 4.7536	max = 135	min = 84
+[20201022_101652 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101652 / lib_ip.py:4422] black : variance --> out of range (variance = 22.597 / upper = 0.000 / lower = 0.000)
+[20201022_101652 / lib_ip.py:4593] file : img.20201022_101649.2020-10-21_18-20-03_000.jpg.2.png 1 (black : variance --> out of range (variance = 22.597 / upper = 0.000 / lower = 0.000))
+[20201022_101652 / lib_ip.py:2274] inspecting ===> img.20201022_101649.2020-10-21_18-20-03_000.jpg.3.png
+[20201022_101652 / lib_ip.py:4505] 
+img.20201022_101649.2020-10-21_18-20-03_000.jpg.3.png 2 ---------------------
+[20201022_101652 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.3.png / val_Average = 80.1114	val_Variance = 0.1081	sd = 0.3288	max = 81	min = 79
+[20201022_101652 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101652 / lib_ip.py:3891] yellow : average --> out of range (average = 80.111 / upper = 99.200 / lower = 85.500)
+[20201022_101652 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.3.png / val_Average = 80.1114	val_Variance = 0.1081	sd = 0.3288	max = 81	min = 79
+[20201022_101652 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101652 / lib_ip.py:4007] red : average --> out of range (average = 80.111 / upper = 124.600 / lower = 115.000)
+[20201022_101652 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.3.png / val_Average = 80.1114	val_Variance = 0.1081	sd = 0.3288	max = 81	min = 79
+[20201022_101652 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101653 / lib_ip.py:2274] inspecting ===> img.20201022_101649.2020-10-21_18-20-03_000.jpg.4.png
+[20201022_101653 / lib_ip.py:4505] 
+img.20201022_101649.2020-10-21_18-20-03_000.jpg.4.png 3 ---------------------
+[20201022_101653 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.4.png / val_Average = 119.2399	val_Variance = 0.1823	sd = 0.4270	max = 120	min = 119
+[20201022_101653 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101653 / lib_ip.py:3891] yellow : average --> out of range (average = 119.240 / upper = 99.200 / lower = 85.500)
+[20201022_101653 / lib_ip.py:3753] file = img.20201022_101649.2020-10-21_18-20-03_000.jpg.4.png / val_Average = 119.2399	val_Variance = 0.1823	sd = 0.4270	max = 120	min = 119
+[20201022_101653 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101653 / lib_ip.py:2274] inspecting ===> img.20201022_101649.2020-10-21_18-20-03_000.jpg.4.png
+img.20201022_101649.2020-10-21_18-20-03_000.jpg.1.png => other
+img.20201022_101649.2020-10-21_18-20-03_000.jpg.2.png => other
+img.20201022_101649.2020-10-21_18-20-03_000.jpg.3.png => other
+img.20201022_101649.2020-10-21_18-20-03_000.jpg.4.png => red
+[20201022_101653 lib_ip.py:3301] =============== Get 4 corners
+dpath_Images = C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\Admin_Projects\ip\images
+fname_Image = img.20201022_101649.2020-10-21_18-20-03_000.jpg.4.png
+
+[20201022_101654 / lib_ip.py:2274] inspecting ===> img.20201022_101654.2020-10-21_20-48-19_000.jpg.1.png
+[20201022_101654 / lib_ip.py:4505] 
+img.20201022_101654.2020-10-21_20-48-19_000.jpg.1.png 0 ---------------------
+[20201022_101655 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.1.png / val_Average = 89.4670	val_Variance = 210.8588	sd = 14.5210	max = 135	min = 0
+[20201022_101655 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101655 / lib_ip.py:3869] yellow : variance --> out of range (variance = 210.859 / upper = 0.650 / lower = 0.000)
+[20201022_101655 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.1.png / val_Average = 89.4670	val_Variance = 210.8588	sd = 14.5210	max = 135	min = 0
+[20201022_101655 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101655 / lib_ip.py:3982] red : variance --> out of range (variance = 210.859 / upper = 0.430 / lower = 0.000)
+[20201022_101655 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.1.png / val_Average = 89.4670	val_Variance = 210.8588	sd = 14.5210	max = 135	min = 0
+[20201022_101655 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101655 / lib_ip.py:4099] green : variance --> out of range (variance = 210.859 / upper = 0.760 / lower = 0.000)
+[20201022_101655 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.1.png / val_Average = 89.4670	val_Variance = 210.8588	sd = 14.5210	max = 135	min = 0
+[20201022_101655 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101655 / lib_ip.py:4208] blue : variance --> out of range (variance = 210.859 / upper = 0.930 / lower = 0.010)
+[20201022_101656 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.1.png / val_Average = 89.4670	val_Variance = 210.8588	sd = 14.5210	max = 135	min = 0
+[20201022_101656 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101656 / lib_ip.py:4314] pink : variance --> out of range (variance = 210.859 / upper = 0.770 / lower = 0.030)
+[20201022_101656 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.1.png / val_Average = 89.4670	val_Variance = 210.8588	sd = 14.5210	max = 135	min = 0
+[20201022_101656 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101656 / lib_ip.py:4422] black : variance --> out of range (variance = 210.859 / upper = 0.000 / lower = 0.000)
+[20201022_101656 / lib_ip.py:4593] file : img.20201022_101654.2020-10-21_20-48-19_000.jpg.1.png 0 (black : variance --> out of range (variance = 210.859 / upper = 0.000 / lower = 0.000))
+[20201022_101656 / lib_ip.py:2274] inspecting ===> img.20201022_101654.2020-10-21_20-48-19_000.jpg.2.png
+[20201022_101656 / lib_ip.py:4505] 
+img.20201022_101654.2020-10-21_20-48-19_000.jpg.2.png 1 ---------------------
+[20201022_101656 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.2.png / val_Average = 72.3348	val_Variance = 198.6657	sd = 14.0949	max = 100	min = 10
+[20201022_101657 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101657 / lib_ip.py:3869] yellow : variance --> out of range (variance = 198.666 / upper = 0.650 / lower = 0.000)
+[20201022_101657 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.2.png / val_Average = 72.3348	val_Variance = 198.6657	sd = 14.0949	max = 100	min = 10
+[20201022_101657 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101657 / lib_ip.py:3982] red : variance --> out of range (variance = 198.666 / upper = 0.430 / lower = 0.000)
+[20201022_101657 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.2.png / val_Average = 72.3348	val_Variance = 198.6657	sd = 14.0949	max = 100	min = 10
+[20201022_101657 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101657 / lib_ip.py:4099] green : variance --> out of range (variance = 198.666 / upper = 0.760 / lower = 0.000)
+[20201022_101657 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.2.png / val_Average = 72.3348	val_Variance = 198.6657	sd = 14.0949	max = 100	min = 10
+[20201022_101657 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101657 / lib_ip.py:4208] blue : variance --> out of range (variance = 198.666 / upper = 0.930 / lower = 0.010)
+[20201022_101657 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.2.png / val_Average = 72.3348	val_Variance = 198.6657	sd = 14.0949	max = 100	min = 10
+[20201022_101657 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101657 / lib_ip.py:4314] pink : variance --> out of range (variance = 198.666 / upper = 0.770 / lower = 0.030)
+[20201022_101657 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.2.png / val_Average = 72.3348	val_Variance = 198.6657	sd = 14.0949	max = 100	min = 10
+[20201022_101657 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101658 / lib_ip.py:4422] black : variance --> out of range (variance = 198.666 / upper = 0.000 / lower = 0.000)
+[20201022_101658 / lib_ip.py:4593] file : img.20201022_101654.2020-10-21_20-48-19_000.jpg.2.png 1 (black : variance --> out of range (variance = 198.666 / upper = 0.000 / lower = 0.000))
+[20201022_101658 / lib_ip.py:2274] inspecting ===> img.20201022_101654.2020-10-21_20-48-19_000.jpg.3.png
+[20201022_101658 / lib_ip.py:4505] 
+img.20201022_101654.2020-10-21_20-48-19_000.jpg.3.png 2 ---------------------
+[20201022_101658 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.3.png / val_Average = 89.0028	val_Variance = 0.0063	sd = 0.0793	max = 90	min = 88
+[20201022_101658 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101658 / lib_ip.py:2274] inspecting ===> img.20201022_101654.2020-10-21_20-48-19_000.jpg.4.png
+[20201022_101658 / lib_ip.py:4505] 
+img.20201022_101654.2020-10-21_20-48-19_000.jpg.4.png 3 ---------------------
+[20201022_101658 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.4.png / val_Average = 11.4244	val_Variance = 0.7270	sd = 0.8526	max = 15	min = 9
+[20201022_101658 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101658 / lib_ip.py:3869] yellow : variance --> out of range (variance = 0.727 / upper = 0.650 / lower = 0.000)
+[20201022_101658 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.4.png / val_Average = 11.4244	val_Variance = 0.7270	sd = 0.8526	max = 15	min = 9
+[20201022_101658 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101658 / lib_ip.py:3982] red : variance --> out of range (variance = 0.727 / upper = 0.430 / lower = 0.000)
+[20201022_101658 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.4.png / val_Average = 11.4244	val_Variance = 0.7270	sd = 0.8526	max = 15	min = 9
+[20201022_101658 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101659 / lib_ip.py:4124] green : average --> out of range (average = 11.424 / upper = 85.000 / lower = 58.000)
+[20201022_101659 / lib_ip.py:3753] file = img.20201022_101654.2020-10-21_20-48-19_000.jpg.4.png / val_Average = 11.4244	val_Variance = 0.7270	sd = 0.8526	max = 15	min = 9
+[20201022_101659 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101658 / lib_ip.py:2274] inspecting ===> img.20201022_101654.2020-10-21_20-48-19_000.jpg.4.png
+img.20201022_101654.2020-10-21_20-48-19_000.jpg.1.png => other
+img.20201022_101654.2020-10-21_20-48-19_000.jpg.2.png => other
+img.20201022_101654.2020-10-21_20-48-19_000.jpg.3.png => yellow
+img.20201022_101654.2020-10-21_20-48-19_000.jpg.4.png => other
+[20201022_101659 lib_ip.py:3301] =============== Get 4 corners
+dpath_Images = C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\Admin_Projects\ip\images
+fname_Image = img.20201022_101654.2020-10-21_20-48-19_000.jpg.4.png
+
+[20201022_101700 / lib_ip.py:2274] inspecting ===> img.20201022_101700.2020-10-21_23-12-10_000.jpg.1.png
+[20201022_101700 / lib_ip.py:4505] 
+img.20201022_101700.2020-10-21_23-12-10_000.jpg.1.png 0 ---------------------
+[20201022_101700 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.1.png / val_Average = 95.6844	val_Variance = 46.1086	sd = 6.7903	max = 135	min = 0
+[20201022_101700 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101700 / lib_ip.py:3869] yellow : variance --> out of range (variance = 46.109 / upper = 0.650 / lower = 0.000)
+[20201022_101700 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.1.png / val_Average = 95.6844	val_Variance = 46.1086	sd = 6.7903	max = 135	min = 0
+[20201022_101700 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101700 / lib_ip.py:3982] red : variance --> out of range (variance = 46.109 / upper = 0.430 / lower = 0.000)
+[20201022_101700 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.1.png / val_Average = 95.6844	val_Variance = 46.1086	sd = 6.7903	max = 135	min = 0
+[20201022_101700 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101701 / lib_ip.py:4099] green : variance --> out of range (variance = 46.109 / upper = 0.760 / lower = 0.000)
+[20201022_101701 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.1.png / val_Average = 95.6844	val_Variance = 46.1086	sd = 6.7903	max = 135	min = 0
+[20201022_101701 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101701 / lib_ip.py:4208] blue : variance --> out of range (variance = 46.109 / upper = 0.930 / lower = 0.010)
+[20201022_101701 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.1.png / val_Average = 95.6844	val_Variance = 46.1086	sd = 6.7903	max = 135	min = 0
+[20201022_101701 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101701 / lib_ip.py:4314] pink : variance --> out of range (variance = 46.109 / upper = 0.770 / lower = 0.030)
+[20201022_101701 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.1.png / val_Average = 95.6844	val_Variance = 46.1086	sd = 6.7903	max = 135	min = 0
+[20201022_101701 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101701 / lib_ip.py:4422] black : variance --> out of range (variance = 46.109 / upper = 0.000 / lower = 0.000)
+[20201022_101701 / lib_ip.py:4593] file : img.20201022_101700.2020-10-21_23-12-10_000.jpg.1.png 0 (black : variance --> out of range (variance = 46.109 / upper = 0.000 / lower = 0.000))
+[20201022_101701 / lib_ip.py:2274] inspecting ===> img.20201022_101700.2020-10-21_23-12-10_000.jpg.2.png
+[20201022_101701 / lib_ip.py:4505] 
+img.20201022_101700.2020-10-21_23-12-10_000.jpg.2.png 1 ---------------------
+[20201022_101702 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.2.png / val_Average = 119.4473	val_Variance = 0.2531	sd = 0.5031	max = 120	min = 118
+[20201022_101702 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101702 / lib_ip.py:3891] yellow : average --> out of range (average = 119.447 / upper = 99.200 / lower = 85.500)
+[20201022_101702 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.2.png / val_Average = 119.4473	val_Variance = 0.2531	sd = 0.5031	max = 120	min = 118
+[20201022_101702 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101702 / lib_ip.py:2274] inspecting ===> img.20201022_101700.2020-10-21_23-12-10_000.jpg.3.png
+[20201022_101702 / lib_ip.py:4505] 
+img.20201022_101700.2020-10-21_23-12-10_000.jpg.3.png 2 ---------------------
+[20201022_101702 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.3.png / val_Average = 92.0123	val_Variance = 210.4087	sd = 14.5055	max = 160	min = 0
+[20201022_101702 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101702 / lib_ip.py:3869] yellow : variance --> out of range (variance = 210.409 / upper = 0.650 / lower = 0.000)
+[20201022_101702 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.3.png / val_Average = 92.0123	val_Variance = 210.4087	sd = 14.5055	max = 160	min = 0
+[20201022_101702 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101702 / lib_ip.py:3982] red : variance --> out of range (variance = 210.409 / upper = 0.430 / lower = 0.000)
+[20201022_101702 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.3.png / val_Average = 92.0123	val_Variance = 210.4087	sd = 14.5055	max = 160	min = 0
+[20201022_101702 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101702 / lib_ip.py:4099] green : variance --> out of range (variance = 210.409 / upper = 0.760 / lower = 0.000)
+[20201022_101703 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.3.png / val_Average = 92.0123	val_Variance = 210.4087	sd = 14.5055	max = 160	min = 0
+[20201022_101703 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101703 / lib_ip.py:4208] blue : variance --> out of range (variance = 210.409 / upper = 0.930 / lower = 0.010)
+[20201022_101703 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.3.png / val_Average = 92.0123	val_Variance = 210.4087	sd = 14.5055	max = 160	min = 0
+[20201022_101703 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101703 / lib_ip.py:4314] pink : variance --> out of range (variance = 210.409 / upper = 0.770 / lower = 0.030)
+[20201022_101703 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.3.png / val_Average = 92.0123	val_Variance = 210.4087	sd = 14.5055	max = 160	min = 0
+[20201022_101703 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101703 / lib_ip.py:4422] black : variance --> out of range (variance = 210.409 / upper = 0.000 / lower = 0.000)
+[20201022_101703 / lib_ip.py:4593] file : img.20201022_101700.2020-10-21_23-12-10_000.jpg.3.png 2 (black : variance --> out of range (variance = 210.409 / upper = 0.000 / lower = 0.000))
+[20201022_101703 / lib_ip.py:2274] inspecting ===> img.20201022_101700.2020-10-21_23-12-10_000.jpg.4.png
+[20201022_101703 / lib_ip.py:4505] 
+img.20201022_101700.2020-10-21_23-12-10_000.jpg.4.png 3 ---------------------
+[20201022_101704 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.4.png / val_Average = 78.3173	val_Variance = 0.2188	sd = 0.4678	max = 79	min = 77
+[20201022_101704 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101704 / lib_ip.py:3891] yellow : average --> out of range (average = 78.317 / upper = 99.200 / lower = 85.500)
+[20201022_101704 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.4.png / val_Average = 78.3173	val_Variance = 0.2188	sd = 0.4678	max = 79	min = 77
+[20201022_101704 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101704 / lib_ip.py:4007] red : average --> out of range (average = 78.317 / upper = 124.600 / lower = 115.000)
+[20201022_101704 / lib_ip.py:3753] file = img.20201022_101700.2020-10-21_23-12-10_000.jpg.4.png / val_Average = 78.3173	val_Variance = 0.2188	sd = 0.4678	max = 79	min = 77
+[20201022_101704 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101703 / lib_ip.py:2274] inspecting ===> img.20201022_101700.2020-10-21_23-12-10_000.jpg.4.png
+img.20201022_101700.2020-10-21_23-12-10_000.jpg.1.png => other
+img.20201022_101700.2020-10-21_23-12-10_000.jpg.2.png => other
+img.20201022_101700.2020-10-21_23-12-10_000.jpg.3.png => other
+img.20201022_101700.2020-10-21_23-12-10_000.jpg.4.png => other
+[20201022_101704 lib_ip.py:3301] =============== Get 4 corners
+dpath_Images = C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\Admin_Projects\ip\images
+fname_Image = img.20201022_101700.2020-10-21_23-12-10_000.jpg.4.png
+
+[20201022_101705 / lib_ip.py:2274] inspecting ===> img.20201022_101705.2020-10-22_01-29-55_000.jpg.1.png
+[20201022_101705 / lib_ip.py:4505] 
+img.20201022_101705.2020-10-22_01-29-55_000.jpg.1.png 0 ---------------------
+[20201022_101706 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.1.png / val_Average = 100.2546	val_Variance = 112.5831	sd = 10.6105	max = 120	min = 0
+[20201022_101706 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101706 / lib_ip.py:3869] yellow : variance --> out of range (variance = 112.583 / upper = 0.650 / lower = 0.000)
+[20201022_101706 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.1.png / val_Average = 100.2546	val_Variance = 112.5831	sd = 10.6105	max = 120	min = 0
+[20201022_101706 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101706 / lib_ip.py:3982] red : variance --> out of range (variance = 112.583 / upper = 0.430 / lower = 0.000)
+[20201022_101706 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.1.png / val_Average = 100.2546	val_Variance = 112.5831	sd = 10.6105	max = 120	min = 0
+[20201022_101706 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101706 / lib_ip.py:4099] green : variance --> out of range (variance = 112.583 / upper = 0.760 / lower = 0.000)
+[20201022_101706 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.1.png / val_Average = 100.2546	val_Variance = 112.5831	sd = 10.6105	max = 120	min = 0
+[20201022_101706 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101706 / lib_ip.py:4208] blue : variance --> out of range (variance = 112.583 / upper = 0.930 / lower = 0.010)
+[20201022_101706 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.1.png / val_Average = 100.2546	val_Variance = 112.5831	sd = 10.6105	max = 120	min = 0
+[20201022_101706 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101706 / lib_ip.py:4314] pink : variance --> out of range (variance = 112.583 / upper = 0.770 / lower = 0.030)
+[20201022_101706 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.1.png / val_Average = 100.2546	val_Variance = 112.5831	sd = 10.6105	max = 120	min = 0
+[20201022_101706 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101706 / lib_ip.py:4422] black : variance --> out of range (variance = 112.583 / upper = 0.000 / lower = 0.000)
+[20201022_101706 / lib_ip.py:4593] file : img.20201022_101705.2020-10-22_01-29-55_000.jpg.1.png 0 (black : variance --> out of range (variance = 112.583 / upper = 0.000 / lower = 0.000))
+[20201022_101706 / lib_ip.py:2274] inspecting ===> img.20201022_101705.2020-10-22_01-29-55_000.jpg.2.png
+[20201022_101707 / lib_ip.py:4505] 
+img.20201022_101705.2020-10-22_01-29-55_000.jpg.2.png 1 ---------------------
+[20201022_101707 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.2.png / val_Average = 39.8763	val_Variance = 76.3573	sd = 8.7383	max = 98	min = 27
+[20201022_101707 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101707 / lib_ip.py:3869] yellow : variance --> out of range (variance = 76.357 / upper = 0.650 / lower = 0.000)
+[20201022_101707 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.2.png / val_Average = 39.8763	val_Variance = 76.3573	sd = 8.7383	max = 98	min = 27
+[20201022_101707 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101707 / lib_ip.py:3982] red : variance --> out of range (variance = 76.357 / upper = 0.430 / lower = 0.000)
+[20201022_101707 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.2.png / val_Average = 39.8763	val_Variance = 76.3573	sd = 8.7383	max = 98	min = 27
+[20201022_101707 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101707 / lib_ip.py:4099] green : variance --> out of range (variance = 76.357 / upper = 0.760 / lower = 0.000)
+[20201022_101707 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.2.png / val_Average = 39.8763	val_Variance = 76.3573	sd = 8.7383	max = 98	min = 27
+[20201022_101707 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101708 / lib_ip.py:4208] blue : variance --> out of range (variance = 76.357 / upper = 0.930 / lower = 0.010)
+[20201022_101708 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.2.png / val_Average = 39.8763	val_Variance = 76.3573	sd = 8.7383	max = 98	min = 27
+[20201022_101708 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101708 / lib_ip.py:4314] pink : variance --> out of range (variance = 76.357 / upper = 0.770 / lower = 0.030)
+[20201022_101708 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.2.png / val_Average = 39.8763	val_Variance = 76.3573	sd = 8.7383	max = 98	min = 27
+[20201022_101708 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101708 / lib_ip.py:4422] black : variance --> out of range (variance = 76.357 / upper = 0.000 / lower = 0.000)
+[20201022_101708 / lib_ip.py:4593] file : img.20201022_101705.2020-10-22_01-29-55_000.jpg.2.png 1 (black : variance --> out of range (variance = 76.357 / upper = 0.000 / lower = 0.000))
+[20201022_101708 / lib_ip.py:2274] inspecting ===> img.20201022_101705.2020-10-22_01-29-55_000.jpg.3.png
+[20201022_101708 / lib_ip.py:4505] 
+img.20201022_101705.2020-10-22_01-29-55_000.jpg.3.png 2 ---------------------
+[20201022_101708 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.3.png / val_Average = 9.6247	val_Variance = 439.8278	sd = 20.9721	max = 178	min = 1
+[20201022_101709 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101709 / lib_ip.py:3869] yellow : variance --> out of range (variance = 439.828 / upper = 0.650 / lower = 0.000)
+[20201022_101709 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.3.png / val_Average = 9.6247	val_Variance = 439.8278	sd = 20.9721	max = 178	min = 1
+[20201022_101709 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101709 / lib_ip.py:3982] red : variance --> out of range (variance = 439.828 / upper = 0.430 / lower = 0.000)
+[20201022_101709 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.3.png / val_Average = 9.6247	val_Variance = 439.8278	sd = 20.9721	max = 178	min = 1
+[20201022_101709 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101709 / lib_ip.py:4099] green : variance --> out of range (variance = 439.828 / upper = 0.760 / lower = 0.000)
+[20201022_101709 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.3.png / val_Average = 9.6247	val_Variance = 439.8278	sd = 20.9721	max = 178	min = 1
+[20201022_101709 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101709 / lib_ip.py:4208] blue : variance --> out of range (variance = 439.828 / upper = 0.930 / lower = 0.010)
+[20201022_101709 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.3.png / val_Average = 9.6247	val_Variance = 439.8278	sd = 20.9721	max = 178	min = 1
+[20201022_101709 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101710 / lib_ip.py:4314] pink : variance --> out of range (variance = 439.828 / upper = 0.770 / lower = 0.030)
+[20201022_101710 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.3.png / val_Average = 9.6247	val_Variance = 439.8278	sd = 20.9721	max = 178	min = 1
+[20201022_101710 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101710 / lib_ip.py:4422] black : variance --> out of range (variance = 439.828 / upper = 0.000 / lower = 0.000)
+[20201022_101710 / lib_ip.py:4593] file : img.20201022_101705.2020-10-22_01-29-55_000.jpg.3.png 2 (black : variance --> out of range (variance = 439.828 / upper = 0.000 / lower = 0.000))
+[20201022_101710 / lib_ip.py:2274] inspecting ===> img.20201022_101705.2020-10-22_01-29-55_000.jpg.4.png
+[20201022_101710 / lib_ip.py:4505] 
+img.20201022_101705.2020-10-22_01-29-55_000.jpg.4.png 3 ---------------------
+[20201022_101710 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.4.png / val_Average = 100.7909	val_Variance = 8.5242	sd = 2.9196	max = 117	min = 90
+[20201022_101710 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101710 / lib_ip.py:3869] yellow : variance --> out of range (variance = 8.524 / upper = 0.650 / lower = 0.000)
+[20201022_101710 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.4.png / val_Average = 100.7909	val_Variance = 8.5242	sd = 2.9196	max = 117	min = 90
+[20201022_101710 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101710 / lib_ip.py:3982] red : variance --> out of range (variance = 8.524 / upper = 0.430 / lower = 0.000)
+[20201022_101710 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.4.png / val_Average = 100.7909	val_Variance = 8.5242	sd = 2.9196	max = 117	min = 90
+[20201022_101711 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101711 / lib_ip.py:4099] green : variance --> out of range (variance = 8.524 / upper = 0.760 / lower = 0.000)
+[20201022_101711 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.4.png / val_Average = 100.7909	val_Variance = 8.5242	sd = 2.9196	max = 117	min = 90
+[20201022_101711 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101711 / lib_ip.py:4208] blue : variance --> out of range (variance = 8.524 / upper = 0.930 / lower = 0.010)
+[20201022_101711 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.4.png / val_Average = 100.7909	val_Variance = 8.5242	sd = 2.9196	max = 117	min = 90
+[20201022_101711 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101711 / lib_ip.py:4314] pink : variance --> out of range (variance = 8.524 / upper = 0.770 / lower = 0.030)
+[20201022_101711 / lib_ip.py:3753] file = img.20201022_101705.2020-10-22_01-29-55_000.jpg.4.png / val_Average = 100.7909	val_Variance = 8.5242	sd = 2.9196	max = 117	min = 90
+[20201022_101711 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101711 / lib_ip.py:4422] black : variance --> out of range (variance = 8.524 / upper = 0.000 / lower = 0.000)
+[20201022_101711 / lib_ip.py:4593] file : img.20201022_101705.2020-10-22_01-29-55_000.jpg.4.png 3 (black : variance --> out of range (variance = 8.524 / upper = 0.000 / lower = 0.000))
+[20201022_101710 / lib_ip.py:2274] inspecting ===> img.20201022_101705.2020-10-22_01-29-55_000.jpg.4.png
+img.20201022_101705.2020-10-22_01-29-55_000.jpg.1.png => other
+img.20201022_101705.2020-10-22_01-29-55_000.jpg.2.png => other
+img.20201022_101705.2020-10-22_01-29-55_000.jpg.3.png => other
+img.20201022_101705.2020-10-22_01-29-55_000.jpg.4.png => other
+[20201022_101711 lib_ip.py:3301] =============== Get 4 corners
+dpath_Images = C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\Admin_Projects\ip\images
+fname_Image = img.20201022_101705.2020-10-22_01-29-55_000.jpg.4.png
+
+[20201022_101712 / lib_ip.py:2274] inspecting ===> img.20201022_101712.2020-10-22_01-30-01_000.jpg.1.png
+[20201022_101713 / lib_ip.py:4505] 
+img.20201022_101712.2020-10-22_01-30-01_000.jpg.1.png 0 ---------------------
+[20201022_101713 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.1.png / val_Average = 131.6738	val_Variance = 17.1018	sd = 4.1354	max = 150	min = 114
+[20201022_101713 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101713 / lib_ip.py:3869] yellow : variance --> out of range (variance = 17.102 / upper = 0.650 / lower = 0.000)
+[20201022_101713 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.1.png / val_Average = 131.6738	val_Variance = 17.1018	sd = 4.1354	max = 150	min = 114
+[20201022_101713 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101713 / lib_ip.py:3982] red : variance --> out of range (variance = 17.102 / upper = 0.430 / lower = 0.000)
+[20201022_101713 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.1.png / val_Average = 131.6738	val_Variance = 17.1018	sd = 4.1354	max = 150	min = 114
+[20201022_101713 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101714 / lib_ip.py:4099] green : variance --> out of range (variance = 17.102 / upper = 0.760 / lower = 0.000)
+[20201022_101714 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.1.png / val_Average = 131.6738	val_Variance = 17.1018	sd = 4.1354	max = 150	min = 114
+[20201022_101714 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101714 / lib_ip.py:4208] blue : variance --> out of range (variance = 17.102 / upper = 0.930 / lower = 0.010)
+[20201022_101714 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.1.png / val_Average = 131.6738	val_Variance = 17.1018	sd = 4.1354	max = 150	min = 114
+[20201022_101714 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101714 / lib_ip.py:4314] pink : variance --> out of range (variance = 17.102 / upper = 0.770 / lower = 0.030)
+[20201022_101714 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.1.png / val_Average = 131.6738	val_Variance = 17.1018	sd = 4.1354	max = 150	min = 114
+[20201022_101714 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101714 / lib_ip.py:4422] black : variance --> out of range (variance = 17.102 / upper = 0.000 / lower = 0.000)
+[20201022_101714 / lib_ip.py:4593] file : img.20201022_101712.2020-10-22_01-30-01_000.jpg.1.png 0 (black : variance --> out of range (variance = 17.102 / upper = 0.000 / lower = 0.000))
+[20201022_101714 / lib_ip.py:2274] inspecting ===> img.20201022_101712.2020-10-22_01-30-01_000.jpg.2.png
+[20201022_101715 / lib_ip.py:4505] 
+img.20201022_101712.2020-10-22_01-30-01_000.jpg.2.png 1 ---------------------
+[20201022_101715 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.2.png / val_Average = 103.1785	val_Variance = 32.2605	sd = 5.6798	max = 128	min = 85
+[20201022_101715 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101715 / lib_ip.py:3869] yellow : variance --> out of range (variance = 32.260 / upper = 0.650 / lower = 0.000)
+[20201022_101715 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.2.png / val_Average = 103.1785	val_Variance = 32.2605	sd = 5.6798	max = 128	min = 85
+[20201022_101715 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101715 / lib_ip.py:3982] red : variance --> out of range (variance = 32.260 / upper = 0.430 / lower = 0.000)
+[20201022_101715 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.2.png / val_Average = 103.1785	val_Variance = 32.2605	sd = 5.6798	max = 128	min = 85
+[20201022_101715 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101715 / lib_ip.py:4099] green : variance --> out of range (variance = 32.260 / upper = 0.760 / lower = 0.000)
+[20201022_101715 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.2.png / val_Average = 103.1785	val_Variance = 32.2605	sd = 5.6798	max = 128	min = 85
+[20201022_101715 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101715 / lib_ip.py:4208] blue : variance --> out of range (variance = 32.260 / upper = 0.930 / lower = 0.010)
+[20201022_101715 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.2.png / val_Average = 103.1785	val_Variance = 32.2605	sd = 5.6798	max = 128	min = 85
+[20201022_101715 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101715 / lib_ip.py:4314] pink : variance --> out of range (variance = 32.260 / upper = 0.770 / lower = 0.030)
+[20201022_101716 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.2.png / val_Average = 103.1785	val_Variance = 32.2605	sd = 5.6798	max = 128	min = 85
+[20201022_101716 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101716 / lib_ip.py:4422] black : variance --> out of range (variance = 32.260 / upper = 0.000 / lower = 0.000)
+[20201022_101716 / lib_ip.py:4593] file : img.20201022_101712.2020-10-22_01-30-01_000.jpg.2.png 1 (black : variance --> out of range (variance = 32.260 / upper = 0.000 / lower = 0.000))
+[20201022_101716 / lib_ip.py:2274] inspecting ===> img.20201022_101712.2020-10-22_01-30-01_000.jpg.3.png
+[20201022_101716 / lib_ip.py:4505] 
+img.20201022_101712.2020-10-22_01-30-01_000.jpg.3.png 2 ---------------------
+[20201022_101716 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.3.png / val_Average = 105.4194	val_Variance = 1.8721	sd = 1.3683	max = 111	min = 100
+[20201022_101716 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101716 / lib_ip.py:3869] yellow : variance --> out of range (variance = 1.872 / upper = 0.650 / lower = 0.000)
+[20201022_101716 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.3.png / val_Average = 105.4194	val_Variance = 1.8721	sd = 1.3683	max = 111	min = 100
+[20201022_101716 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101716 / lib_ip.py:3982] red : variance --> out of range (variance = 1.872 / upper = 0.430 / lower = 0.000)
+[20201022_101717 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.3.png / val_Average = 105.4194	val_Variance = 1.8721	sd = 1.3683	max = 111	min = 100
+[20201022_101717 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101717 / lib_ip.py:4099] green : variance --> out of range (variance = 1.872 / upper = 0.760 / lower = 0.000)
+[20201022_101717 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.3.png / val_Average = 105.4194	val_Variance = 1.8721	sd = 1.3683	max = 111	min = 100
+[20201022_101717 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101717 / lib_ip.py:4208] blue : variance --> out of range (variance = 1.872 / upper = 0.930 / lower = 0.010)
+[20201022_101717 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.3.png / val_Average = 105.4194	val_Variance = 1.8721	sd = 1.3683	max = 111	min = 100
+[20201022_101717 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101717 / lib_ip.py:4314] pink : variance --> out of range (variance = 1.872 / upper = 0.770 / lower = 0.030)
+[20201022_101717 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.3.png / val_Average = 105.4194	val_Variance = 1.8721	sd = 1.3683	max = 111	min = 100
+[20201022_101717 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101717 / lib_ip.py:4422] black : variance --> out of range (variance = 1.872 / upper = 0.000 / lower = 0.000)
+[20201022_101717 / lib_ip.py:4593] file : img.20201022_101712.2020-10-22_01-30-01_000.jpg.3.png 2 (black : variance --> out of range (variance = 1.872 / upper = 0.000 / lower = 0.000))
+[20201022_101717 / lib_ip.py:2274] inspecting ===> img.20201022_101712.2020-10-22_01-30-01_000.jpg.4.png
+[20201022_101718 / lib_ip.py:4505] 
+img.20201022_101712.2020-10-22_01-30-01_000.jpg.4.png 3 ---------------------
+[20201022_101718 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.4.png / val_Average = 105.3828	val_Variance = 2.8382	sd = 1.6847	max = 111	min = 100
+[20201022_101718 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101718 / lib_ip.py:3869] yellow : variance --> out of range (variance = 2.838 / upper = 0.650 / lower = 0.000)
+[20201022_101718 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.4.png / val_Average = 105.3828	val_Variance = 2.8382	sd = 1.6847	max = 111	min = 100
+[20201022_101718 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101718 / lib_ip.py:3982] red : variance --> out of range (variance = 2.838 / upper = 0.430 / lower = 0.000)
+[20201022_101718 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.4.png / val_Average = 105.3828	val_Variance = 2.8382	sd = 1.6847	max = 111	min = 100
+[20201022_101718 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101718 / lib_ip.py:4099] green : variance --> out of range (variance = 2.838 / upper = 0.760 / lower = 0.000)
+[20201022_101718 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.4.png / val_Average = 105.3828	val_Variance = 2.8382	sd = 1.6847	max = 111	min = 100
+[20201022_101718 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101718 / lib_ip.py:4208] blue : variance --> out of range (variance = 2.838 / upper = 0.930 / lower = 0.010)
+[20201022_101718 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.4.png / val_Average = 105.3828	val_Variance = 2.8382	sd = 1.6847	max = 111	min = 100
+[20201022_101718 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101718 / lib_ip.py:4314] pink : variance --> out of range (variance = 2.838 / upper = 0.770 / lower = 0.030)
+[20201022_101719 / lib_ip.py:3753] file = img.20201022_101712.2020-10-22_01-30-01_000.jpg.4.png / val_Average = 105.3828	val_Variance = 2.8382	sd = 1.6847	max = 111	min = 100
+[20201022_101719 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101719 / lib_ip.py:4422] black : variance --> out of range (variance = 2.838 / upper = 0.000 / lower = 0.000)
+[20201022_101719 / lib_ip.py:4593] file : img.20201022_101712.2020-10-22_01-30-01_000.jpg.4.png 3 (black : variance --> out of range (variance = 2.838 / upper = 0.000 / lower = 0.000))
+[20201022_101717 / lib_ip.py:2274] inspecting ===> img.20201022_101712.2020-10-22_01-30-01_000.jpg.4.png
+img.20201022_101712.2020-10-22_01-30-01_000.jpg.1.png => other
+img.20201022_101712.2020-10-22_01-30-01_000.jpg.2.png => other
+img.20201022_101712.2020-10-22_01-30-01_000.jpg.3.png => other
+img.20201022_101712.2020-10-22_01-30-01_000.jpg.4.png => other
+[20201022_101719 lib_ip.py:3301] =============== Get 4 corners
+dpath_Images = C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\Admin_Projects\ip\images
+fname_Image = img.20201022_101712.2020-10-22_01-30-01_000.jpg.4.png
+
+[20201022_101720 / lib_ip.py:2274] inspecting ===> img.20201022_101719.2020-10-22_08-46-02_000.jpg.1.png
+[20201022_101720 / lib_ip.py:4505] 
+img.20201022_101719.2020-10-22_08-46-02_000.jpg.1.png 0 ---------------------
+[20201022_101720 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.1.png / val_Average = 131.4172	val_Variance = 17.8814	sd = 4.2286	max = 155	min = 114
+[20201022_101720 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101720 / lib_ip.py:3869] yellow : variance --> out of range (variance = 17.881 / upper = 0.650 / lower = 0.000)
+[20201022_101721 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.1.png / val_Average = 131.4172	val_Variance = 17.8814	sd = 4.2286	max = 155	min = 114
+[20201022_101721 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101721 / lib_ip.py:3982] red : variance --> out of range (variance = 17.881 / upper = 0.430 / lower = 0.000)
+[20201022_101721 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.1.png / val_Average = 131.4172	val_Variance = 17.8814	sd = 4.2286	max = 155	min = 114
+[20201022_101721 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101721 / lib_ip.py:4099] green : variance --> out of range (variance = 17.881 / upper = 0.760 / lower = 0.000)
+[20201022_101721 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.1.png / val_Average = 131.4172	val_Variance = 17.8814	sd = 4.2286	max = 155	min = 114
+[20201022_101721 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101721 / lib_ip.py:4208] blue : variance --> out of range (variance = 17.881 / upper = 0.930 / lower = 0.010)
+[20201022_101721 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.1.png / val_Average = 131.4172	val_Variance = 17.8814	sd = 4.2286	max = 155	min = 114
+[20201022_101721 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101721 / lib_ip.py:4314] pink : variance --> out of range (variance = 17.881 / upper = 0.770 / lower = 0.030)
+[20201022_101721 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.1.png / val_Average = 131.4172	val_Variance = 17.8814	sd = 4.2286	max = 155	min = 114
+[20201022_101722 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101722 / lib_ip.py:4422] black : variance --> out of range (variance = 17.881 / upper = 0.000 / lower = 0.000)
+[20201022_101722 / lib_ip.py:4593] file : img.20201022_101719.2020-10-22_08-46-02_000.jpg.1.png 0 (black : variance --> out of range (variance = 17.881 / upper = 0.000 / lower = 0.000))
+[20201022_101722 / lib_ip.py:2274] inspecting ===> img.20201022_101719.2020-10-22_08-46-02_000.jpg.2.png
+[20201022_101722 / lib_ip.py:4505] 
+img.20201022_101719.2020-10-22_08-46-02_000.jpg.2.png 1 ---------------------
+[20201022_101722 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.2.png / val_Average = 108.0474	val_Variance = 41.3953	sd = 6.4339	max = 135	min = 90
+[20201022_101722 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101722 / lib_ip.py:3869] yellow : variance --> out of range (variance = 41.395 / upper = 0.650 / lower = 0.000)
+[20201022_101722 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.2.png / val_Average = 108.0474	val_Variance = 41.3953	sd = 6.4339	max = 135	min = 90
+[20201022_101722 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101722 / lib_ip.py:3982] red : variance --> out of range (variance = 41.395 / upper = 0.430 / lower = 0.000)
+[20201022_101723 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.2.png / val_Average = 108.0474	val_Variance = 41.3953	sd = 6.4339	max = 135	min = 90
+[20201022_101723 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101723 / lib_ip.py:4099] green : variance --> out of range (variance = 41.395 / upper = 0.760 / lower = 0.000)
+[20201022_101723 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.2.png / val_Average = 108.0474	val_Variance = 41.3953	sd = 6.4339	max = 135	min = 90
+[20201022_101723 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101723 / lib_ip.py:4208] blue : variance --> out of range (variance = 41.395 / upper = 0.930 / lower = 0.010)
+[20201022_101723 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.2.png / val_Average = 108.0474	val_Variance = 41.3953	sd = 6.4339	max = 135	min = 90
+[20201022_101723 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101723 / lib_ip.py:4314] pink : variance --> out of range (variance = 41.395 / upper = 0.770 / lower = 0.030)
+[20201022_101723 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.2.png / val_Average = 108.0474	val_Variance = 41.3953	sd = 6.4339	max = 135	min = 90
+[20201022_101723 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101723 / lib_ip.py:4422] black : variance --> out of range (variance = 41.395 / upper = 0.000 / lower = 0.000)
+[20201022_101723 / lib_ip.py:4593] file : img.20201022_101719.2020-10-22_08-46-02_000.jpg.2.png 1 (black : variance --> out of range (variance = 41.395 / upper = 0.000 / lower = 0.000))
+[20201022_101723 / lib_ip.py:2274] inspecting ===> img.20201022_101719.2020-10-22_08-46-02_000.jpg.3.png
+[20201022_101724 / lib_ip.py:4505] 
+img.20201022_101719.2020-10-22_08-46-02_000.jpg.3.png 2 ---------------------
+[20201022_101724 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.3.png / val_Average = 106.2365	val_Variance = 2.0924	sd = 1.4465	max = 112	min = 102
+[20201022_101724 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101724 / lib_ip.py:3869] yellow : variance --> out of range (variance = 2.092 / upper = 0.650 / lower = 0.000)
+[20201022_101724 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.3.png / val_Average = 106.2365	val_Variance = 2.0924	sd = 1.4465	max = 112	min = 102
+[20201022_101724 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101724 / lib_ip.py:3982] red : variance --> out of range (variance = 2.092 / upper = 0.430 / lower = 0.000)
+[20201022_101724 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.3.png / val_Average = 106.2365	val_Variance = 2.0924	sd = 1.4465	max = 112	min = 102
+[20201022_101724 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101724 / lib_ip.py:4099] green : variance --> out of range (variance = 2.092 / upper = 0.760 / lower = 0.000)
+[20201022_101725 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.3.png / val_Average = 106.2365	val_Variance = 2.0924	sd = 1.4465	max = 112	min = 102
+[20201022_101725 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101725 / lib_ip.py:4208] blue : variance --> out of range (variance = 2.092 / upper = 0.930 / lower = 0.010)
+[20201022_101725 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.3.png / val_Average = 106.2365	val_Variance = 2.0924	sd = 1.4465	max = 112	min = 102
+[20201022_101725 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101725 / lib_ip.py:4314] pink : variance --> out of range (variance = 2.092 / upper = 0.770 / lower = 0.030)
+[20201022_101725 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.3.png / val_Average = 106.2365	val_Variance = 2.0924	sd = 1.4465	max = 112	min = 102
+[20201022_101725 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101725 / lib_ip.py:4422] black : variance --> out of range (variance = 2.092 / upper = 0.000 / lower = 0.000)
+[20201022_101725 / lib_ip.py:4593] file : img.20201022_101719.2020-10-22_08-46-02_000.jpg.3.png 2 (black : variance --> out of range (variance = 2.092 / upper = 0.000 / lower = 0.000))
+[20201022_101725 / lib_ip.py:2274] inspecting ===> img.20201022_101719.2020-10-22_08-46-02_000.jpg.4.png
+[20201022_101725 / lib_ip.py:4505] 
+img.20201022_101719.2020-10-22_08-46-02_000.jpg.4.png 3 ---------------------
+[20201022_101725 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.4.png / val_Average = 107.9559	val_Variance = 1.2051	sd = 1.0978	max = 111	min = 104
+[20201022_101725 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101725 / lib_ip.py:3869] yellow : variance --> out of range (variance = 1.205 / upper = 0.650 / lower = 0.000)
+[20201022_101725 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.4.png / val_Average = 107.9559	val_Variance = 1.2051	sd = 1.0978	max = 111	min = 104
+[20201022_101725 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101726 / lib_ip.py:3982] red : variance --> out of range (variance = 1.205 / upper = 0.430 / lower = 0.000)
+[20201022_101726 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.4.png / val_Average = 107.9559	val_Variance = 1.2051	sd = 1.0978	max = 111	min = 104
+[20201022_101726 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101726 / lib_ip.py:4099] green : variance --> out of range (variance = 1.205 / upper = 0.760 / lower = 0.000)
+[20201022_101726 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.4.png / val_Average = 107.9559	val_Variance = 1.2051	sd = 1.0978	max = 111	min = 104
+[20201022_101726 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101726 / lib_ip.py:4208] blue : variance --> out of range (variance = 1.205 / upper = 0.930 / lower = 0.010)
+[20201022_101726 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.4.png / val_Average = 107.9559	val_Variance = 1.2051	sd = 1.0978	max = 111	min = 104
+[20201022_101726 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101726 / lib_ip.py:4314] pink : variance --> out of range (variance = 1.205 / upper = 0.770 / lower = 0.030)
+[20201022_101726 / lib_ip.py:3753] file = img.20201022_101719.2020-10-22_08-46-02_000.jpg.4.png / val_Average = 107.9559	val_Variance = 1.2051	sd = 1.0978	max = 111	min = 104
+[20201022_101726 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101726 / lib_ip.py:4422] black : variance --> out of range (variance = 1.205 / upper = 0.000 / lower = 0.000)
+[20201022_101726 / lib_ip.py:4593] file : img.20201022_101719.2020-10-22_08-46-02_000.jpg.4.png 3 (black : variance --> out of range (variance = 1.205 / upper = 0.000 / lower = 0.000))
+[20201022_101725 / lib_ip.py:2274] inspecting ===> img.20201022_101719.2020-10-22_08-46-02_000.jpg.4.png
+img.20201022_101719.2020-10-22_08-46-02_000.jpg.1.png => other
+img.20201022_101719.2020-10-22_08-46-02_000.jpg.2.png => other
+img.20201022_101719.2020-10-22_08-46-02_000.jpg.3.png => other
+img.20201022_101719.2020-10-22_08-46-02_000.jpg.4.png => other
+[20201022_101726 lib_ip.py:3301] =============== Get 4 corners
+dpath_Images = C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\Admin_Projects\ip\images
+fname_Image = img.20201022_101719.2020-10-22_08-46-02_000.jpg.4.png
+
+[20201022_101727 / lib_ip.py:2274] inspecting ===> img.20201022_101727.2020-10-22_10-09-54_000.jpg.1.png
+[20201022_101728 / lib_ip.py:4505] 
+img.20201022_101727.2020-10-22_10-09-54_000.jpg.1.png 0 ---------------------
+[20201022_101728 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.1.png / val_Average = 102.9977	val_Variance = 6.5626	sd = 2.5618	max = 112	min = 90
+[20201022_101728 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101728 / lib_ip.py:3869] yellow : variance --> out of range (variance = 6.563 / upper = 0.650 / lower = 0.000)
+[20201022_101728 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.1.png / val_Average = 102.9977	val_Variance = 6.5626	sd = 2.5618	max = 112	min = 90
+[20201022_101728 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101728 / lib_ip.py:3982] red : variance --> out of range (variance = 6.563 / upper = 0.430 / lower = 0.000)
+[20201022_101728 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.1.png / val_Average = 102.9977	val_Variance = 6.5626	sd = 2.5618	max = 112	min = 90
+[20201022_101728 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101728 / lib_ip.py:4099] green : variance --> out of range (variance = 6.563 / upper = 0.760 / lower = 0.000)
+[20201022_101728 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.1.png / val_Average = 102.9977	val_Variance = 6.5626	sd = 2.5618	max = 112	min = 90
+[20201022_101728 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101728 / lib_ip.py:4208] blue : variance --> out of range (variance = 6.563 / upper = 0.930 / lower = 0.010)
+[20201022_101729 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.1.png / val_Average = 102.9977	val_Variance = 6.5626	sd = 2.5618	max = 112	min = 90
+[20201022_101729 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101729 / lib_ip.py:4314] pink : variance --> out of range (variance = 6.563 / upper = 0.770 / lower = 0.030)
+[20201022_101729 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.1.png / val_Average = 102.9977	val_Variance = 6.5626	sd = 2.5618	max = 112	min = 90
+[20201022_101729 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101729 / lib_ip.py:4422] black : variance --> out of range (variance = 6.563 / upper = 0.000 / lower = 0.000)
+[20201022_101729 / lib_ip.py:4593] file : img.20201022_101727.2020-10-22_10-09-54_000.jpg.1.png 0 (black : variance --> out of range (variance = 6.563 / upper = 0.000 / lower = 0.000))
+[20201022_101729 / lib_ip.py:2274] inspecting ===> img.20201022_101727.2020-10-22_10-09-54_000.jpg.2.png
+[20201022_101729 / lib_ip.py:4505] 
+img.20201022_101727.2020-10-22_10-09-54_000.jpg.2.png 1 ---------------------
+[20201022_101729 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.2.png / val_Average = 119.0077	val_Variance = 0.1980	sd = 0.4449	max = 120	min = 118
+[20201022_101729 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101729 / lib_ip.py:3891] yellow : average --> out of range (average = 119.008 / upper = 99.200 / lower = 85.500)
+[20201022_101730 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.2.png / val_Average = 119.0077	val_Variance = 0.1980	sd = 0.4449	max = 120	min = 118
+[20201022_101730 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101730 / lib_ip.py:2274] inspecting ===> img.20201022_101727.2020-10-22_10-09-54_000.jpg.3.png
+[20201022_101730 / lib_ip.py:4505] 
+img.20201022_101727.2020-10-22_10-09-54_000.jpg.3.png 2 ---------------------
+[20201022_101730 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.3.png / val_Average = 104.9760	val_Variance = 3.7834	sd = 1.9451	max = 120	min = 98
+[20201022_101730 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101730 / lib_ip.py:3869] yellow : variance --> out of range (variance = 3.783 / upper = 0.650 / lower = 0.000)
+[20201022_101730 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.3.png / val_Average = 104.9760	val_Variance = 3.7834	sd = 1.9451	max = 120	min = 98
+[20201022_101730 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101730 / lib_ip.py:3982] red : variance --> out of range (variance = 3.783 / upper = 0.430 / lower = 0.000)
+[20201022_101730 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.3.png / val_Average = 104.9760	val_Variance = 3.7834	sd = 1.9451	max = 120	min = 98
+[20201022_101730 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101730 / lib_ip.py:4099] green : variance --> out of range (variance = 3.783 / upper = 0.760 / lower = 0.000)
+[20201022_101730 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.3.png / val_Average = 104.9760	val_Variance = 3.7834	sd = 1.9451	max = 120	min = 98
+[20201022_101730 / lib_ip.py:4169] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101731 / lib_ip.py:4208] blue : variance --> out of range (variance = 3.783 / upper = 0.930 / lower = 0.010)
+[20201022_101731 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.3.png / val_Average = 104.9760	val_Variance = 3.7834	sd = 1.9451	max = 120	min = 98
+[20201022_101731 / lib_ip.py:4275] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101731 / lib_ip.py:4314] pink : variance --> out of range (variance = 3.783 / upper = 0.770 / lower = 0.030)
+[20201022_101731 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.3.png / val_Average = 104.9760	val_Variance = 3.7834	sd = 1.9451	max = 120	min = 98
+[20201022_101731 / lib_ip.py:4378] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101731 / lib_ip.py:4422] black : variance --> out of range (variance = 3.783 / upper = 0.000 / lower = 0.000)
+[20201022_101731 / lib_ip.py:4593] file : img.20201022_101727.2020-10-22_10-09-54_000.jpg.3.png 2 (black : variance --> out of range (variance = 3.783 / upper = 0.000 / lower = 0.000))
+[20201022_101731 / lib_ip.py:2274] inspecting ===> img.20201022_101727.2020-10-22_10-09-54_000.jpg.4.png
+[20201022_101731 / lib_ip.py:4505] 
+img.20201022_101727.2020-10-22_10-09-54_000.jpg.4.png 3 ---------------------
+[20201022_101731 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.4.png / val_Average = 75.8933	val_Variance = 0.1874	sd = 0.4329	max = 77	min = 74
+[20201022_101732 / lib_ip.py:3836] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101732 / lib_ip.py:3891] yellow : average --> out of range (average = 75.893 / upper = 99.200 / lower = 85.500)
+[20201022_101732 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.4.png / val_Average = 75.8933	val_Variance = 0.1874	sd = 0.4329	max = 77	min = 74
+[20201022_101732 / lib_ip.py:3936] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101732 / lib_ip.py:4007] red : average --> out of range (average = 75.893 / upper = 124.600 / lower = 115.000)
+[20201022_101732 / lib_ip.py:3753] file = img.20201022_101727.2020-10-22_10-09-54_000.jpg.4.png / val_Average = 75.8933	val_Variance = 0.1874	sd = 0.4329	max = 77	min = 74
+[20201022_101732 / lib_ip.py:4052] len(Hs) = 8100, len(Ss) = 8100, len(Vs) = 8100
+[20201022_101731 / lib_ip.py:2274] inspecting ===> img.20201022_101727.2020-10-22_10-09-54_000.jpg.4.png
+img.20201022_101727.2020-10-22_10-09-54_000.jpg.1.png => other
+img.20201022_101727.2020-10-22_10-09-54_000.jpg.2.png => other
+img.20201022_101727.2020-10-22_10-09-54_000.jpg.3.png => other
+img.20201022_101727.2020-10-22_10-09-54_000.jpg.4.png => other
+[20201022_101732 lib_ip.py:3301] =============== Get 4 corners
+dpath_Images = C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\Admin_Projects\ip\images
+fname_Image = img.20201022_101727.2020-10-22_10-09-54_000.jpg.4.png
+
+[20201022_101732 / views.py:1411] gen csv => complete (20201022_101732)(elapsed = 55.532 sec / 9 files / 6.170 sec per file)
+1)	2020-10-21_14-26-38_000.jpg => 	other other other yellow 
+2)	2020-10-21_16-59-36_000.jpg => 	red green other other 
+3)	2020-10-21_18-20-03_000.jpg => 	other other green red 
+4)	2020-10-21_20-48-19_000.jpg => 	other other yellow blue 
+5)	2020-10-21_23-12-10_000.jpg => 	other red other green 
+6)	2020-10-22_01-29-55_000.jpg => 	other other other other 
+7)	2020-10-22_01-30-01_000.jpg => 	other other other other 
+8)	2020-10-22_08-46-02_000.jpg => 	other other other other 
+9)	2020-10-22_10-09-54_000.jpg => 	other red other green 
+[20201022_101732 / views.py:1782] lo_ColorName_Set__Modified_2 =>
+1)	2020-10-21_14-26-38_000.jpg => 	o o o y 
+2)	2020-10-21_16-59-36_000.jpg => 	g o o r 
+3)	2020-10-21_18-20-03_000.jpg => 	g o o r 
+4)	2020-10-21_20-48-19_000.jpg => 	b o o y 
+5)	2020-10-21_23-12-10_000.jpg => 	g o o r 
+6)	2020-10-22_01-29-55_000.jpg => 	o o o o 
+7)	2020-10-22_01-30-01_000.jpg => 	o o o o 
+8)	2020-10-22_08-46-02_000.jpg => 	o o o o 
+9)	2020-10-22_10-09-54_000.jpg => 	g o o r 
+[20201022_101733 / lib_ip.py:4789] no key 'GPSInfo' for file : C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\Admin_Projects\ip\images\2020-10-22_01-29-55_000.jpg
+[20201022_101733 / lib_ip.py:4789] no key 'GPSInfo' for file : C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\Admin_Projects\ip\images\2020-10-22_01-30-01_000.jpg
+[20201022_101741 / views.py:1868] gen_Cake_CSV(request) ==> ending... =======================//
+

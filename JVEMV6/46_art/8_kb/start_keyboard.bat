@@ -86,6 +86,9 @@ REM : keyboard
 pushd "C:\WORKS_2\Programs\opera"
 
 start launcher.exe https://pianoplays.com
+start launcher.exe https://metronom.us/en/
+start launcher.exe https://www.musicca.com/jp/metronome
+
 REM 	start launcher.exe https://www.onlinepianist.com/virtual-piano
 
 REM ==============================
