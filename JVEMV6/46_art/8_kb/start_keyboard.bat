@@ -44,7 +44,8 @@ pushd "C:\WORKS_2\Programs\opera"
 
 rem : set urls 2020年11月17日18:27:33
 rem : log files / 2020年11月17日18:27:39
-set url_1="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=music+log&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
+rem set url_1="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=music+log&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
+set url_1="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=session+shino&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
 
 rem : video files : bamboo / 2020年11月17日18:27:39
 set url_2="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=video+bamboo&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
@@ -115,7 +116,8 @@ REM 	2020年8月13日18:35:12
 REM ==============================
 rem commet out 2020年9月4日18:18:30
 rem commet in	2020年9月24日18:28:09
-start C:\WORKS_2\Programs\musescore\ms_3.2.3.7635\bin\MuseScore3.exe
+rem commet out : 2021年2月3日17:55:18
+rem start C:\WORKS_2\Programs\musescore\ms_3.2.3.7635\bin\MuseScore3.exe
 
 REM ==============================
 REM 	doc
