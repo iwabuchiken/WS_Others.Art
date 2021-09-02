@@ -107,11 +107,12 @@ REM 	mind map
 REM 	2020年7月20日18:35:01
 REM ==============================
 rem : comment in 2020年10月25日18:13:20
-pushd "C:\WORKS_2\WS\FM_2_20171104_225946\Projects\JVEMV6\46 Art\8 kb"
-start 3_music-types.mm
+rem : c/o : 2021年3月3日17:35:37
+rem pushd "C:\WORKS_2\WS\FM_2_20171104_225946\Projects\JVEMV6\46 Art\8 kb"
+rem start 3_music-types.mm
 
 rem : comment in 2020年10月21日19:08:01
-start "C:\WORKS_2\WS\FM_2_20171104_225946\Projects\JVEMV6\46 Art\8 kb\3_music-types.mm"
+rem start "C:\WORKS_2\WS\FM_2_20171104_225946\Projects\JVEMV6\46 Art\8 kb\3_music-types.mm"
 
 REM ==============================
 REM 	musescore3

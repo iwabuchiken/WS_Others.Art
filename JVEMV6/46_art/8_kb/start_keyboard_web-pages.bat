@@ -13,6 +13,9 @@ rem : log files / 2020年11月17日18:27:39
 rem set url_1="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=music+log&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
 set url_1="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=session+shino&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
 
+rem 2021年5月11日18:56:02
+set url_1_prep="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=session+shino+用意&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
+
 rem : session memo : shakuhachi : 2021年2月10日18:04:21
 set url_1_2="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=session+shaku&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
 
@@ -23,9 +26,9 @@ set url_2="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filte
 rem : video files : flute / 2020年11月17日18:39:02
 set url_2="http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=video+jap.flute&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
 
-start launcher.exe %url_1%
-start launcher.exe %url_1_2%
-start launcher.exe %url_2%
+start launcher.exe %url_1% %url_1_prep%
+rem start launcher.exe %url_1_2%
+rem start launcher.exe %url_2%
 
 REM : log
 rem 	start launcher.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=kb+log&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
@@ -55,10 +58,11 @@ REM : metronome
 REM 	start launcher.exe "https://www.metronomeonline.com"
 REM 	start launcher.exe "https://www.imusic-school.com/en/tools/online-metronome/"
 REM : keyboard
-pushd "C:\WORKS_2\Programs\opera"
+rem : c/o : 2021年2月24日17:37:56
+rem pushd "C:\WORKS_2\Programs\opera"
 
-start launcher.exe https://pianoplays.com
-start launcher.exe https://metronom.us/en/
-start launcher.exe https://www.musicca.com/jp/metronome
+rem start launcher.exe https://pianoplays.com
+rem start launcher.exe https://metronom.us/en/
+rem start launcher.exe https://www.musicca.com/jp/metronome
 
 REM 	start launcher.exe https://www.onlinepianist.com/virtual-piano
