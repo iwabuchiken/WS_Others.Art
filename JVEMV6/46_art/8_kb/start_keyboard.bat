@@ -38,7 +38,7 @@ rem REM 	browser
 rem REM 	2019/09/16 14:18:11
 rem REM ==============================
 rem : outsource to a file : 2021”N2ŒŽ10“ú14:56:38
-call C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\start_keyboard_web-pages.bat
+rem call C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\start_keyboard_web-pages.bat
 
 rem :web_page_keyboard_opera
 
@@ -144,6 +144,8 @@ rem set text_1="C:\WORKS_2\shortcuts_docs\log_[flute].txt"
 rem : comment out : 2021”N1ŒŽ10“ú18:02:07
 rem C:\WORKS_2\Programs\sakura\sakura.exe %text_1%
 
+rem 2021”N11ŒŽ1“ú18:11:43
+start C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
 
 REM pause
