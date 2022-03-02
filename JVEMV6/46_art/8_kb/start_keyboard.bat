@@ -99,8 +99,9 @@ REM ==============================
 REM 	console
 REM 	2020”N7ŒŽ22“ú19:08:10
 REM ==============================
-pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
-start start_command_prompot.bat
+rem : comment out : 2022”N2ŒŽ26“ú19:04:47
+rem pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+rem start start_command_prompot.bat
 
 REM ==============================
 REM 	mind map
