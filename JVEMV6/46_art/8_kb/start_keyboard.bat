@@ -128,6 +128,11 @@ REM ==============================
 REM 	doc
 REM 	2019/09/16 14:18:11
 REM ==============================
+rem : 2022”N5ŒŽ1“ú18:06:55
+start C:\WORKS_2\shortcuts_docs\data_shino.ods
+start C:\WORKS_2\shortcuts_docs\data_shaku.ods
+
+
 REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\list_of_memos_keyboard.ods
 REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\memos_keyboard.odt
 rem C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\log_keyboard.odt
@@ -148,6 +153,8 @@ rem C:\WORKS_2\Programs\sakura\sakura.exe %text_1%
 rem 2021”N11ŒŽ1“ú18:11:43
 start C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 
+rem : 2022”N4ŒŽ13“ú15:41:09
+C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods
 
 REM pause
 
